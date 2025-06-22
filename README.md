@@ -26,4 +26,5 @@ It uses **[SDL2](https://www.libsdl.org/)** as its platform layer and supports d
 2. Run the build script:
    `build.cmd`
 4. After a successful build, navigate to:
-5. Run the generated executable to launch your game.
+   `Genesis\Build\Debug\`
+6. Run the generated executable to launch your game.
