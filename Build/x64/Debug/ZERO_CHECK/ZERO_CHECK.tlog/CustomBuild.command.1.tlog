@@ -1,0 +1,10 @@
+^C:\USERS\JPFAU\DESKTOP\GENESIS\BUILD\CMAKEFILES\FD0B61568ED3B0124A93E57577AD42D7\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jpfau/Desktop/Genesis/Build/GenesisEngine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

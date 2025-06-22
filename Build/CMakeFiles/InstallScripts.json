@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/jpfau/Desktop/Genesis/Build/cmake_install.cmake",
+		"C:/Users/jpfau/Desktop/Genesis/Build/Engine/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

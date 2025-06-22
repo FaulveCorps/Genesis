@@ -1,0 +1,4 @@
+C:/Users/jpfau/Desktop/Genesis/Build/CMakeFiles/Game.dir
+C:/Users/jpfau/Desktop/Genesis/Build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jpfau/Desktop/Genesis/Build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jpfau/Desktop/Genesis/Build/Engine/CMakeFiles/Engine.dir
