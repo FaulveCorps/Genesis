@@ -8,7 +8,7 @@
 ## 📝 Description
 
 **Genesis** is a lightweight, modular 2D game engine written in **C++**, designed for learning and experimentation.  
-It uses **[SDL2](https://www.libsdl.org/)** as its platform layer and supports development on **Windows**, **Linux**, and **macOS**.
+It uses **[SDL3](https://www.libsdl.org/)** as its platform layer and supports development on **Windows**, **Linux**, and **macOS**.
 
 ## ⚙️ Prerequisites
 
@@ -17,7 +17,7 @@ It uses **[SDL2](https://www.libsdl.org/)** as its platform layer and supports d
 - **Git**
 
 ## 🔗 Other Projects Linked
-- **SDL2**
+- **SDL3**
 
 ## 🛠️ Building
 
