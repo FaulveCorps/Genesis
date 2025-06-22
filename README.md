@@ -2,7 +2,7 @@
 
 ![Genesis Game Engine Logo](https://github.com/user-attachments/assets/d30ed9b0-691f-43e2-b7e6-06c62de2c10a)
 
-> Only Use Genesis for Personal Use, As-of Now, The [License](https://github.com/altxxr0/Genesis/blob/master/LICENSE) will restricts your use of Genesis
+> ❗ Only Use Genesis for Personal Use, As-of Now, The [License](https://github.com/altxxr0/Genesis/blob/master/LICENSE) will restricts your use of Genesis
 
 ## 📝 Description
 
