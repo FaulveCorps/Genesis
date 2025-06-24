@@ -18,6 +18,9 @@
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\SDLWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\btBulletDynamicsCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Engine\CMakeLists.txt" />

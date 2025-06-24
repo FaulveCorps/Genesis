@@ -3,10 +3,18 @@
 
 #include <memory>
 #include <iostream>
+#include <btBulletDynamicsCommon.h>
 
 namespace Engine {
 
     std::unique_ptr<Engine::SDLWindow> window;
+
+    // Physics globals
+    btDiscreteDynamicsWorld* world = nullptr;
+    btBroadphaseInterface* broadphase = nullptr;
+    btDefaultCollisionConfiguration* collisionConfig = nullptr;
+    btCollisionDispatcher* dispatcher = nullptr;
+    btSequentialImpulseConstraintSolver* solver = nullptr;
 
     void Init() {
         std::cout << "[Engine] Initialization..." << std::endl;
@@ -15,16 +23,49 @@ namespace Engine {
             std::cerr << "[Engine] Window failed to initialize!" << std::endl;
             exit(1);
         }
+
+        InitPhysics();
+    }
+
+    void InitPhysics() {
+        collisionConfig = new btDefaultCollisionConfiguration();
+        dispatcher = new btCollisionDispatcher(collisionConfig);
+        broadphase = new btDbvtBroadphase();
+        solver = new btSequentialImpulseConstraintSolver();
+        world = new btDiscreteDynamicsWorld(dispatcher, broadphase, solver, collisionConfig);
+        world->setGravity(btVector3(0, -9.81f, 0));
+
+        std::cout << "[Engine] Physics initialized." << std::endl;
+    }
+
+    void UpdatePhysics(float deltaTime) {
+        if (world) {
+            world->stepSimulation(deltaTime);
+        }
     }
 
     void Run() {
         std::cout << "[Engine] Running..." << std::endl;
+
         while (window->IsRunning()) {
             window->PollEvents();
+
+            // Update physics with a fixed timestep (you can improve this later)
+            UpdatePhysics(1.0f / 60.0f);
         }
     }
 
+    void ShutdownPhysics() {
+        delete world;
+        delete solver;
+        delete broadphase;
+        delete dispatcher;
+        delete collisionConfig;
+        std::cout << "[Engine] Physics shutdown." << std::endl;
+    }
+
     void Shutdown() {
+        ShutdownPhysics();
         window->Shutdown();
         std::cout << "[Engine] Shutdown complete." << std::endl;
     }
