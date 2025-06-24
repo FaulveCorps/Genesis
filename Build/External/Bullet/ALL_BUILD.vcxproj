@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{73C9535F-EC87-3316-BA27-71CEB74D14F8}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\AppBasicExampleGui.vcxproj">
+      <Project>{0BCA3C80-B8A1-3787-BE44-401A24CFC417}</Project>
+      <Name>AppBasicExampleGui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\App_BasicExample.vcxproj">
+      <Project>{96006913-0EA5-3927-BCA7-D1E4C3BC66F2}</Project>
+      <Name>App_BasicExample</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\App_ExampleBrowser.vcxproj">
+      <Project>{843B9E1F-0F43-3024-83CA-EAA668C3F040}</Project>
+      <Name>App_ExampleBrowser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_HelloBulletRobotics.vcxproj">
+      <Project>{67B94238-5CB2-3CD6-A2F9-0384E462640E}</Project>
+      <Name>App_HelloBulletRobotics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\HelloWorld\App_HelloWorld.vcxproj">
+      <Project>{86619F91-0A3A-3640-AB2B-A22636FCAE0A}</Project>
+      <Name>App_HelloWorld</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory.vcxproj">
+      <Project>{617B8152-686A-3C85-905D-0D979322AF8B}</Project>
+      <Name>App_PhysicsServer_SharedMemory</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory_GUI.vcxproj">
+      <Project>{7817CC2F-30A2-37CC-9968-26125E7699D6}</Project>
+      <Name>App_PhysicsServer_SharedMemory_GUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator.vcxproj">
+      <Project>{04E7AF0E-5E88-3FBC-A8E9-39D746D18DF2}</Project>
+      <Name>App_RobotSimulator</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator_NoGUI.vcxproj">
+      <Project>{5A2C6E3B-603A-3DCB-9EBE-F60A57F3CAC8}</Project>
+      <Name>App_RobotSimulator_NoGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\TwoJoint\App_TwoJoint.vcxproj">
+      <Project>{E0703F58-5FEF-3DDE-BF80-DF7AEE0341A4}</Project>
+      <Name>App_TwoJoint</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\obj2sdf\App_obj2sdf.vcxproj">
+      <Project>{6C8F981D-3107-3CD1-8F3C-36B3D550D48D}</Project>
+      <Name>App_obj2sdf</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\Bullet2FileLoader.vcxproj">
+      <Project>{F7F25432-05BA-37B8-A012-19971AAF7E1D}</Project>
+      <Name>Bullet2FileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Collision\Bullet3Collision.vcxproj">
+      <Project>{90B514CB-14BC-39DC-8AB8-34355E830B11}</Project>
+      <Name>Bullet3Collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{A6A8C29F-6B0F-3A0C-8EE8-D31EF680C1A2}</Project>
+      <Name>Bullet3Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
+      <Project>{221FF37E-A640-3515-BFD7-C5EE12C02C3E}</Project>
+      <Name>Bullet3Dynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Geometry\Bullet3Geometry.vcxproj">
+      <Project>{B5D93143-0C1E-3CDC-BF59-DD759F5B1A63}</Project>
+      <Name>Bullet3Geometry</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3OpenCL\Bullet3OpenCL_clew.vcxproj">
+      <Project>{323C81C7-8635-390C-A50F-EC5B5F9CA4BD}</Project>
+      <Name>Bullet3OpenCL_clew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{6B3716C8-4638-351C-AD3A-CC00D591CC44}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{871EE9F1-C37A-3112-B5AE-FB24F3924048}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>{CF18E6B2-2BB9-3A92-87B4-A7D197F810D8}</Project>
+      <Name>BulletExampleBrowserLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{870F5E89-F8F3-30DE-8ED7-F3405E81EC46}</Project>
+      <Name>BulletFileLoader</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{40421F5F-772D-3C65-A33B-E393B0E84487}</Project>
+      <Name>BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{88ECDCC8-2706-314F-A574-F934DD5FD4E4}</Project>
+      <Name>BulletInverseDynamicsUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\BulletRobotics\BulletRobotics.vcxproj">
+      <Project>{3267BBF2-67FD-3488-A3A7-0A7AD153446F}</Project>
+      <Name>BulletRobotics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\BulletRoboticsGUI\BulletRoboticsGUI.vcxproj">
+      <Project>{1D96D2AA-D094-375E-B1D8-3E6BA4FDC624}</Project>
+      <Name>BulletRoboticsGUI</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{69057298-2515-3C63-A405-06293EC30FC1}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{189BE102-0924-34FD-9F1F-82FC2C3E150B}</Project>
+      <Name>BulletWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletXmlWorldImporter\BulletXmlWorldImporter.vcxproj">
+      <Project>{B0E056EB-A44F-3052-8FA8-C1C4624FFC04}</Project>
+      <Name>BulletXmlWorldImporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>{23CD5935-1CB7-3B4F-A929-E16F8FA6B695}</Project>
+      <Name>BussIK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\ConvexDecomposition\ConvexDecomposition.vcxproj">
+      <Project>{742CBAF8-EDFA-363C-BF21-794E011FB3AB}</Project>
+      <Name>ConvexDecomposition</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\GIMPACTUtils\GIMPACTUtils.vcxproj">
+      <Project>{E481A459-A9B0-369B-A9D0-E8B10C12CDCE}</Project>
+      <Name>GIMPACTUtils</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\HACD\HACD.vcxproj">
+      <Project>{468468C4-1DF4-3968-A27E-E1F2CED75772}</Project>
+      <Name>HACD</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>{A927D36B-20A8-3549-8B64-82DFFDC62644}</Project>
+      <Name>OpenGLWindow</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\pendulum\Test_BulletDynamics.vcxproj">
+      <Project>{570C957F-AD38-3619-84B4-C46646295313}</Project>
+      <Name>Test_BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamics.vcxproj">
+      <Project>{083C9F59-9AB4-31D8-8E9A-FEB47701D327}</Project>
+      <Name>Test_BulletInverseDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamicsJacobian.vcxproj">
+      <Project>{138AFF92-6B9D-3872-AF3A-5CD5BE10174A}</Project>
+      <Name>Test_BulletInverseDynamicsJacobian</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseForwardDynamics.vcxproj">
+      <Project>{887B517C-41DF-3194-9341-AA0C8A8CD32A}</Project>
+      <Name>Test_BulletInverseForwardDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\collision\Test_Collision.vcxproj">
+      <Project>{0C5B0474-8E48-3B6E-A4DB-F8C9099C896D}</Project>
+      <Name>Test_Collision</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\SharedMemory\Test_PhysicsClientServer.vcxproj">
+      <Project>{23507B90-5B13-3CCA-A3CF-C28920160B87}</Project>
+      <Name>Test_PhysicsClientServer</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\Test_btKinematicCharacterController.vcxproj">
+      <Project>{0FB108EE-485F-3E09-AF6F-AFB1DAE96733}</Project>
+      <Name>Test_btKinematicCharacterController</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\clsocket\clsocket.vcxproj">
+      <Project>{AB4F214B-9025-367A-B285-05D2BD8C6E44}</Project>
+      <Name>clsocket</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>{73763E3F-896A-3B53-B11E-98B8E774B5B9}</Project>
+      <Name>gtest</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>{4588A070-DA55-3004-9923-05B8E5F3D0B0}</Project>
+      <Name>gwen</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

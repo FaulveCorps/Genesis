@@ -5,7 +5,61 @@
       <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\Debug\AppBasicExampleGui.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\Debug\App_BasicExample.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\Debug\App_ExampleBrowser.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\Debug\App_HelloBulletRobotics_d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\HelloWorld\Debug\App_HelloWorld.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\Debug\App_PhysicsServer_SharedMemory.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\Debug\App_PhysicsServer_SharedMemory_GUI.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\Debug\App_RobotSimulator_d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\Debug\App_RobotSimulator_NoGUI_d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\TwoJoint\Debug\App_TwoJoint_d.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\obj2sdf\Debug\App_obj2sdf.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\Debug\Game.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\pendulum\Debug\Test_BulletDynamics.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Debug\Test_BulletInverseDynamics.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Debug\Test_BulletInverseDynamicsJacobian.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Debug\Test_BulletInverseForwardDynamics.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\collision\Debug\Test_Collision.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\SharedMemory\Debug\Test_PhysicsClientServer.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\Debug\Test_btKinematicCharacterController.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
       <FullPath>C:\Users\jpfau\Desktop\Genesis\Build\x64\Debug\ALL_BUILD</FullPath>
