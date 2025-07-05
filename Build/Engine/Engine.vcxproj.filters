@@ -4,6 +4,9 @@
     <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Engine.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Physics\Physics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\SDLWindow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -13,6 +16,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\IWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\Physics.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\SDLWindow.h">

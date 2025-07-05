@@ -23,6 +23,11 @@ target_link_libraries(Engine PRIVATE
     "${CMAKE_SOURCE_DIR}/External/SDL/build/Release/SDL3.lib"
 )
 
+target_include_directories(Engine PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+
 target_include_directories(Engine PUBLIC
     "${CMAKE_SOURCE_DIR}/External/Bullet/src"
 )

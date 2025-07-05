@@ -278,9 +278,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   <ItemGroup>
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\Engine.h" />
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\IWindow.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\Physics.h" />
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\SDLWindow.h" />
     <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\btBulletDynamicsCommon.h" />
     <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Engine.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Physics\Physics.cpp" />
     <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\SDLWindow.cpp" />
   </ItemGroup>
   <ItemGroup />

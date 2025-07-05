@@ -1,5 +1,6 @@
 #include "Engine/Engine.h"
 #include "Engine/SDLWindow.h"
+#include "Engine/Physics.h"
 
 #include <memory>
 #include <iostream>
@@ -15,6 +16,10 @@ namespace Engine {
     btDefaultCollisionConfiguration* collisionConfig = nullptr;
     btCollisionDispatcher* dispatcher = nullptr;
     btSequentialImpulseConstraintSolver* solver = nullptr;
+
+    static btCollisionShape* groundShape = nullptr;
+    static btCollisionShape* boxShape = nullptr;
+    static btRigidBody* fallingBox = nullptr;
 
     void Init() {
         std::cout << "[Engine] Initialization..." << std::endl;
@@ -41,6 +46,10 @@ namespace Engine {
     void UpdatePhysics(float deltaTime) {
         if (world) {
             world->stepSimulation(deltaTime);
+
+            btTransform trans;
+            fallingBox->getMotionState()->getWorldTransform(trans);
+            std::cout << "[Physics] Box Y: " << trans.getOrigin().getY() << std::endl;
         }
     }
 
@@ -50,18 +59,22 @@ namespace Engine {
         while (window->IsRunning()) {
             window->PollEvents();
 
-            // Update physics with a fixed timestep (you can improve this later)
             UpdatePhysics(1.0f / 60.0f);
         }
     }
 
     void ShutdownPhysics() {
+        world->removeRigidBody(fallingBox);
+        delete fallingBox->getMotionState();
+        delete fallingBox;
+        delete boxShape;
+        delete groundShape;
+
         delete world;
         delete solver;
         delete broadphase;
         delete dispatcher;
         delete collisionConfig;
-        std::cout << "[Engine] Physics shutdown." << std::endl;
     }
 
     void Shutdown() {
