@@ -22,6 +22,8 @@ Check out the Progress of the **[Project](https://github.com/users/altxxr0/proje
 
 ## 🔗 Other Projects Linked
 - **SDL3**
+- **Bullet**
+- **Bgfx**
 
 ## 🛠️ Building
 
