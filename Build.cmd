@@ -1,39 +1,61 @@
 @echo off
+@title Altxxr0 / Compiler Build Script
+@chcp 65001 >nul
+cls
+echo: ░██████╗░███████╗███╗░░██╗███████╗░██████╗██╗░██████╗
+echo: ██╔════╝░██╔════╝████╗░██║██╔════╝██╔════╝██║██╔════╝
+echo: ██║░░██╗░█████╗░░██╔██╗██║█████╗░░╚█████╗░██║╚█████╗░
+echo: ██║░░╚██╗██╔══╝░░██║╚████║██╔══╝░░░╚═══██╗██║░╚═══██╗
+echo: ╚██████╔╝███████╗██║░╚███║███████╗██████╔╝██║██████╔╝
+echo: ░╚═════╝░╚══════╝╚═╝░░╚══╝╚══════╝╚═════╝░╚═╝╚═════╝░
+echo:      █▀▀ ▄▀█ █▀▄▀█ █▀▀   █▀▀ █▄░█ █▀▀ █ █▄░█ █▀▀
+echo:      █▄█ █▀█ █░▀░█ ██▄   ██▄ █░▀█ █▄█ █ █░▀█ ██▄
 echo:
-echo   Build Starting . . . 
+echo                   Altxxr0 / CBS
+echo:
+echo   Build Starting . . .
 echo:
 
-REM Delete existing Build folder
-if exist Build (
-    rmdir /s /q Build
+if "%1"=="clean" (
+    echo Cleaning Build directory . . .
+    if exist Build (
+        rmdir /s /q Build
+    )
 )
 
-REM Create new Build folder
-mkdir Build
+if not exist Build (
+    mkdir Build
+)
 
 cd Build
 
-REM Run cmake configure with live output + log file
-powershell -Command "cmake .. | Tee-Object -FilePath ..\build_output.txt"
+if not exist CMakeCache.txt (
+    powershell -Command "cmake .. | Tee-Object -FilePath ..\build_output.txt"
+)
 
-REM Run cmake build with live output + append to log file
-powershell -Command "cmake --build . --config Debug | Tee-Object -FilePath ..\build_output.txt -Append"
+powershell -Command "cmake --build . --config Debug -- /m:4 | Tee-Object -FilePath ..\build_output.txt -Append"
 
 echo:
 
-REM Check if Debug folder exists
 if exist "%cd%\Debug" (
-    echo   Build Successful . . .
+    dir /b "%cd%\Debug" | findstr . >nul
+    if errorlevel 1 (
+        echo   Build Failed <!> - Debug folder is empty.
+        echo:
+        echo   Relevant Error Lines:
+        echo   ----------------------
+        findstr /i "error" ..\build_output.txt
+        echo   ----------------------
+        exit /b 1
+    ) else (
+        echo   Build Successful . . .
+    )
 ) else (
-    echo   Build Failed <!> . . .
+    echo   Build Failed <!> - Debug folder does not exist.
     echo:
     echo   Relevant Error Lines:
     echo   ----------------------
-
     findstr /i "error" ..\build_output.txt
-
     echo   ----------------------
+    exit /b 1
 )
-
-:loop
-goto loop
