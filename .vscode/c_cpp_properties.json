@@ -5,7 +5,7 @@
             "includePath": [
                 "${workspaceFolder}/Engine/include",
 
-                "${workspaceFolder}/External/SDL3/include",
+                "${workspaceFolder}/External/SDL/include",
 
                 "${workspaceFolder}/External/Bgfx/include",
 
