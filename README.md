@@ -7,14 +7,14 @@
 > ⚠️ **Personal Use Only**  
 > The current [License](https://github.com/altxxr0/Genesis/blob/master/LICENSE) restricts commercial or public redistribution. Please review before use.
 
-## 📝 Description
+## 📄 Description
 
 **Genesis** is a lightweight, modular 2D game engine written in **C++**, designed for learning and experimentation.  
 It uses **[SDL3](https://www.libsdl.org/)** as its platform layer and supports development on **Windows**, **Linux**, and **macOS**.
 
 Check out the Progress of the **[Project](https://github.com/users/altxxr0/projects/3)**!
 
-## ⚙️ Prerequisites
+## 📍 Prerequisites
 
 - **CMake** ≥ 3.15  
 - **Visual Studio Code** (or any modern C++ IDE)  
@@ -25,7 +25,7 @@ Check out the Progress of the **[Project](https://github.com/users/altxxr0/proje
 - **Bullet**
 - **Bgfx**
 
-## 🛠️ Building
+## 🏗️ Building
 
 1. Clone the repository:
    `git clone https://github.com/altxxr0/Genesis.git`
