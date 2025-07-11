@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{73C9535F-EC87-3316-BA27-71CEB74D14F8}</ProjectGuid>
+    <ProjectGuid>{683C228B-CA3E-3AAF-A795-F7F2786335C0}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,8 +159,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-4.0\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-4.0\Modules\FindPackageMessage.cmake;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\BulletConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -168,186 +168,186 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\AppBasicExampleGui.vcxproj">
-      <Project>{0BCA3C80-B8A1-3787-BE44-401A24CFC417}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\BasicDemo\AppBasicExampleGui.vcxproj">
+      <Project>{1BE27BE6-9C70-3ACB-8C8D-020520E8E693}</Project>
       <Name>AppBasicExampleGui</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\BasicDemo\App_BasicExample.vcxproj">
-      <Project>{96006913-0EA5-3927-BCA7-D1E4C3BC66F2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\BasicDemo\App_BasicExample.vcxproj">
+      <Project>{3CF3CE8B-D26D-3938-B54C-680672C54211}</Project>
       <Name>App_BasicExample</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\App_ExampleBrowser.vcxproj">
-      <Project>{843B9E1F-0F43-3024-83CA-EAA668C3F040}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\App_ExampleBrowser.vcxproj">
+      <Project>{66519607-AC03-3570-ADB0-8A0A6DA72094}</Project>
       <Name>App_ExampleBrowser</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_HelloBulletRobotics.vcxproj">
-      <Project>{67B94238-5CB2-3CD6-A2F9-0384E462640E}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\App_HelloBulletRobotics.vcxproj">
+      <Project>{80F743A1-4F78-31D5-8A51-9364DA159975}</Project>
       <Name>App_HelloBulletRobotics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\HelloWorld\App_HelloWorld.vcxproj">
-      <Project>{86619F91-0A3A-3640-AB2B-A22636FCAE0A}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\HelloWorld\App_HelloWorld.vcxproj">
+      <Project>{6DF8ED7C-2C72-3586-A7F6-67E7EC1FC561}</Project>
       <Name>App_HelloWorld</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory.vcxproj">
-      <Project>{617B8152-686A-3C85-905D-0D979322AF8B}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory.vcxproj">
+      <Project>{61C53B6E-1C41-3D50-8167-AD58F6AB6690}</Project>
       <Name>App_PhysicsServer_SharedMemory</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory_GUI.vcxproj">
-      <Project>{7817CC2F-30A2-37CC-9968-26125E7699D6}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\SharedMemory\App_PhysicsServer_SharedMemory_GUI.vcxproj">
+      <Project>{57A76FF7-5501-30DB-8F05-1DD84FDCA7A7}</Project>
       <Name>App_PhysicsServer_SharedMemory_GUI</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator.vcxproj">
-      <Project>{04E7AF0E-5E88-3FBC-A8E9-39D746D18DF2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator.vcxproj">
+      <Project>{41792D95-885B-3CC0-96D2-2BC4B339EA6D}</Project>
       <Name>App_RobotSimulator</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator_NoGUI.vcxproj">
-      <Project>{5A2C6E3B-603A-3DCB-9EBE-F60A57F3CAC8}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\App_RobotSimulator_NoGUI.vcxproj">
+      <Project>{A44C0A97-15E9-3FEF-AA99-671CDFB79A91}</Project>
       <Name>App_RobotSimulator_NoGUI</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\TwoJoint\App_TwoJoint.vcxproj">
-      <Project>{E0703F58-5FEF-3DDE-BF80-DF7AEE0341A4}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\TwoJoint\App_TwoJoint.vcxproj">
+      <Project>{88ACA304-C6B3-328D-8F50-6EFB3B4D9744}</Project>
       <Name>App_TwoJoint</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\obj2sdf\App_obj2sdf.vcxproj">
-      <Project>{6C8F981D-3107-3CD1-8F3C-36B3D550D48D}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\obj2sdf\App_obj2sdf.vcxproj">
+      <Project>{5381D513-F990-35CA-955A-53F489518D04}</Project>
       <Name>App_obj2sdf</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\Bullet2FileLoader.vcxproj">
-      <Project>{F7F25432-05BA-37B8-A012-19971AAF7E1D}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\Bullet2FileLoader.vcxproj">
+      <Project>{C5DBB767-6DB2-3D86-8AE4-F40AC7262529}</Project>
       <Name>Bullet2FileLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Collision\Bullet3Collision.vcxproj">
-      <Project>{90B514CB-14BC-39DC-8AB8-34355E830B11}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Collision\Bullet3Collision.vcxproj">
+      <Project>{7DC6E73A-6E66-3225-BEBF-BEDBC3F14D67}</Project>
       <Name>Bullet3Collision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>{A6A8C29F-6B0F-3A0C-8EE8-D31EF680C1A2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{8694E467-ED71-31FE-931E-E35DDFB2B21F}</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
-      <Project>{221FF37E-A640-3515-BFD7-C5EE12C02C3E}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Dynamics\Bullet3Dynamics.vcxproj">
+      <Project>{6502BF80-FDE3-3C48-A0F2-FB10E3F2634B}</Project>
       <Name>Bullet3Dynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Geometry\Bullet3Geometry.vcxproj">
-      <Project>{B5D93143-0C1E-3CDC-BF59-DD759F5B1A63}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Geometry\Bullet3Geometry.vcxproj">
+      <Project>{B255BC5A-8001-3C82-990A-F95EB65BC2D0}</Project>
       <Name>Bullet3Geometry</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3OpenCL\Bullet3OpenCL_clew.vcxproj">
-      <Project>{323C81C7-8635-390C-A50F-EC5B5F9CA4BD}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3OpenCL\Bullet3OpenCL_clew.vcxproj">
+      <Project>{60DAA4D3-A879-31EB-A417-1ED1417C1117}</Project>
       <Name>Bullet3OpenCL_clew</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>{6B3716C8-4638-351C-AD3A-CC00D591CC44}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{AA44BBC7-E8EE-310C-A015-F8578FCA4118}</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>{871EE9F1-C37A-3112-B5AE-FB24F3924048}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{E73473C3-5CA7-3BF2-A3BD-A5AFCD84473B}</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
-      <Project>{CF18E6B2-2BB9-3A92-87B4-A7D197F810D8}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>{85A6703A-05FF-3A37-8E76-AF298BF6B422}</Project>
       <Name>BulletExampleBrowserLib</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
-      <Project>{870F5E89-F8F3-30DE-8ED7-F3405E81EC46}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{E9342CC8-A261-3F34-97EF-E21E87B00E2A}</Project>
       <Name>BulletFileLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>{40421F5F-772D-3C65-A33B-E393B0E84487}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{05F92971-89E2-309C-9170-356FE3D890A4}</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>{88ECDCC8-2706-314F-A574-F934DD5FD4E4}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{4A6CCBDA-4E36-3506-9637-90D617E21D34}</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\BulletRobotics\BulletRobotics.vcxproj">
-      <Project>{3267BBF2-67FD-3488-A3A7-0A7AD153446F}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\BulletRobotics\BulletRobotics.vcxproj">
+      <Project>{5D7F2F33-EC56-38F9-BF87-10C6C321920E}</Project>
       <Name>BulletRobotics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\BulletRoboticsGUI\BulletRoboticsGUI.vcxproj">
-      <Project>{1D96D2AA-D094-375E-B1D8-3E6BA4FDC624}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\BulletRoboticsGUI\BulletRoboticsGUI.vcxproj">
+      <Project>{5360144B-EEF4-307F-A6C9-9A7A728E73F8}</Project>
       <Name>BulletRoboticsGUI</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
-      <Project>{69057298-2515-3C63-A405-06293EC30FC1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{BBED72CB-986F-3DB1-AC74-CB6B0999F3B9}</Project>
       <Name>BulletSoftBody</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
-      <Project>{189BE102-0924-34FD-9F1F-82FC2C3E150B}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{F5A8BF2A-C538-3BC9-A161-EC2E158BD59D}</Project>
       <Name>BulletWorldImporter</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletXmlWorldImporter\BulletXmlWorldImporter.vcxproj">
-      <Project>{B0E056EB-A44F-3052-8FA8-C1C4624FFC04}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\Serialize\BulletXmlWorldImporter\BulletXmlWorldImporter.vcxproj">
+      <Project>{F98826D1-EC66-3F9C-999D-A42E0948E9FF}</Project>
       <Name>BulletXmlWorldImporter</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
-      <Project>{23CD5935-1CB7-3B4F-A929-E16F8FA6B695}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>{B026BCCF-5CE0-30D5-8FC9-3004EF9B1322}</Project>
       <Name>BussIK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\ConvexDecomposition\ConvexDecomposition.vcxproj">
-      <Project>{742CBAF8-EDFA-363C-BF21-794E011FB3AB}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\ConvexDecomposition\ConvexDecomposition.vcxproj">
+      <Project>{462A2028-E344-3816-8140-9D3A0575FE7C}</Project>
       <Name>ConvexDecomposition</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\GIMPACTUtils\GIMPACTUtils.vcxproj">
-      <Project>{E481A459-A9B0-369B-A9D0-E8B10C12CDCE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\GIMPACTUtils\GIMPACTUtils.vcxproj">
+      <Project>{AB8249A6-33AC-3AE7-98AA-4C713723A4AF}</Project>
       <Name>GIMPACTUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\HACD\HACD.vcxproj">
-      <Project>{468468C4-1DF4-3968-A27E-E1F2CED75772}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\HACD\HACD.vcxproj">
+      <Project>{6C21B7E5-FD68-3D8B-8946-F9D3FB6EABC0}</Project>
       <Name>HACD</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
-      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3CBE1557-C760-3C7F-BEEA-056D6B1CAD63}</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\OpenGLWindow\OpenGLWindow.vcxproj">
-      <Project>{A927D36B-20A8-3549-8B64-82DFFDC62644}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>{02E9C06F-A6F0-3DAC-B46D-C848884C7A74}</Project>
       <Name>OpenGLWindow</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\pendulum\Test_BulletDynamics.vcxproj">
-      <Project>{570C957F-AD38-3619-84B4-C46646295313}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\BulletDynamics\pendulum\Test_BulletDynamics.vcxproj">
+      <Project>{02CE6112-46E9-3CC6-999F-4FEE1B6A1CDA}</Project>
       <Name>Test_BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamics.vcxproj">
-      <Project>{083C9F59-9AB4-31D8-8E9A-FEB47701D327}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamics.vcxproj">
+      <Project>{00010C80-D773-3664-85C3-517FC8BE0FCD}</Project>
       <Name>Test_BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamicsJacobian.vcxproj">
-      <Project>{138AFF92-6B9D-3872-AF3A-5CD5BE10174A}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseDynamicsJacobian.vcxproj">
+      <Project>{C91B3D19-C984-3E9B-81D1-FC17957896A4}</Project>
       <Name>Test_BulletInverseDynamicsJacobian</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseForwardDynamics.vcxproj">
-      <Project>{887B517C-41DF-3194-9341-AA0C8A8CD32A}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\Test_BulletInverseForwardDynamics.vcxproj">
+      <Project>{EEDC59AA-1F63-311F-AB11-D45BC4CFA7E5}</Project>
       <Name>Test_BulletInverseForwardDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\collision\Test_Collision.vcxproj">
-      <Project>{0C5B0474-8E48-3B6E-A4DB-F8C9099C896D}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\collision\Test_Collision.vcxproj">
+      <Project>{B9FAEC3E-ABFC-366A-8DF8-64607A82D1EE}</Project>
       <Name>Test_Collision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\SharedMemory\Test_PhysicsClientServer.vcxproj">
-      <Project>{23507B90-5B13-3CCA-A3CF-C28920160B87}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\SharedMemory\Test_PhysicsClientServer.vcxproj">
+      <Project>{022A169F-B1C2-3909-A269-9D7D1CD59453}</Project>
       <Name>Test_PhysicsClientServer</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\BulletDynamics\Test_btKinematicCharacterController.vcxproj">
-      <Project>{0FB108EE-485F-3E09-AF6F-AFB1DAE96733}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\BulletDynamics\Test_btKinematicCharacterController.vcxproj">
+      <Project>{DF5E258F-EE14-3175-9707-76E83847B1C3}</Project>
       <Name>Test_btKinematicCharacterController</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\clsocket\clsocket.vcxproj">
-      <Project>{AB4F214B-9025-367A-B285-05D2BD8C6E44}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\clsocket\clsocket.vcxproj">
+      <Project>{47B764BB-BE9B-326F-BCE0-0AD44FF156BA}</Project>
       <Name>clsocket</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\gtest-1.7.0\gtest.vcxproj">
-      <Project>{73763E3F-896A-3B53-B11E-98B8E774B5B9}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>{A493D622-923F-39A7-8D8E-592DAB0042F9}</Project>
       <Name>gtest</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
-      <Project>{4588A070-DA55-3004-9923-05B8E5F3D0B0}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>{72101878-7E41-3474-9CDC-5653CF384399}</Project>
       <Name>gwen</Name>
     </ProjectReference>
   </ItemGroup>

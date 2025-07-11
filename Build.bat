@@ -72,7 +72,7 @@ git clone --recursive https://github.com/libsdl-org/SDL.git SDL
 
 echo   Dependencies Downloaded Successfully.
 echo.
-goto :EOF
+goto :loop
 
 :GetDependenciesAndBuild
 call :GetDependencies
@@ -93,18 +93,35 @@ if not exist Build (
 
 cd Build
 
+REM === Get Absolute Path to Source Directory ===
+for %%I in ("..") do set "SRC_DIR=%%~fI"
+
+REM === If CMakeCache.txt doesn't exist, generate CMake files ===
 if not exist CMakeCache.txt (
-    powershell -Command "cmake .. | Tee-Object -FilePath ..\build_output.txt"
+    powershell -Command "cmake \"%SRC_DIR%\" | Tee-Object -FilePath ..\build_output.txt"
 )
 
-powershell -Command "cmake --build . --config Debug -- /m:4 | Tee-Object -FilePath ..\build_output.txt -Append"
+REM === Check if CMakeCache.txt references a different directory ===
+findstr /C:"CMAKE_HOME_DIRECTORY" CMakeCache.txt | findstr /V "%SRC_DIR%" >nul
+if not errorlevel 1 (
+    echo.
+    echo Detected mismatched CMakeCache.txt source dir. Removing...
+    echo.
+    del CMakeCache.txt
+    powershell -Command "cmake \"%SRC_DIR%\" | Tee-Object -FilePath ..\build_output.txt"
+)
+
+REM === Build the project ===
+for /f %%i in ('powershell -Command "[Environment]::ProcessorCount"') do set "CPU_COUNT=%%i"
+powershell -Command "cmake --build . --config Debug -- /m:%CPU_COUNT% | Tee-Object -FilePath ..\build_output.txt -Append"
 
 echo.
 
 if exist "%cd%\Debug" (
     dir /b "%cd%\Debug" | findstr . >nul
     if errorlevel 1 (
-        echo   Build Failed <!> - Debug folder is empty.
+        echo.
+        echo   Build Failed <!> . . .
         echo.
         echo   Relevant Error Lines:
         echo   ----------------------
@@ -112,16 +129,17 @@ if exist "%cd%\Debug" (
         echo   ----------------------
         exit /b 1
     ) else (
-        echo   Build Successful . . .
+        echo   Build Successful <@> . . .
     )
 ) else (
-    echo   Build Failed <!> - Debug folder does not exist.
+    echo   Build Failed <!> . . .
     echo.
     echo   Relevant Error Lines:
     echo   ----------------------
-    findstr /i "error" ..\build_output.txt
+        findstr /i "error" ..\build_output.txt
     echo   ----------------------
     exit /b 1
 )
 
-goto :EOF
+:loop
+goto :loop

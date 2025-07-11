@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{138AFF92-6B9D-3872-AF3A-5CD5BE10174A}</ProjectGuid>
+    <ProjectGuid>{C91B3D19-C984-3E9B-81D1-FC17957896A4}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Test_BulletInverseDynamicsJacobian.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Test_BulletInverseDynamicsJacobian</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Test_BulletInverseDynamicsJacobian.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Test_BulletInverseDynamicsJacobian</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Test_BulletInverseDynamicsJacobian.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Test_BulletInverseDynamicsJacobian</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Test_BulletInverseDynamicsJacobian.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Test_BulletInverseDynamicsJacobian</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -109,10 +109,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,9 +126,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/Debug/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/Debug/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/Debug/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/Debug/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -137,7 +137,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,9 +178,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/Release/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/Release/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/Release/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/Release/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -189,7 +189,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -213,10 +213,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -230,9 +230,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/MinSizeRel/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/MinSizeRel/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/MinSizeRel/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/MinSizeRel/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -241,7 +241,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -264,10 +264,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_VARIADIC_MAX=10;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\gtest-1.7.0\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\Extras\InverseDynamics;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\..\..\examples\ThirdPartyLibs;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,9 +281,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/RelWithDebInfo/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/RelWithDebInfo/Test_BulletInverseDynamicsJacobian.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/RelWithDebInfo/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/RelWithDebInfo/Test_BulletInverseDynamicsJacobian.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -291,11 +291,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,11 +304,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -317,11 +317,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,11 +330,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/test/InverseDynamics/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/test/InverseDynamics/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -343,39 +343,39 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\InverseDynamics\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\test_invdyn_jacobian.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\test_invdyn_jacobian.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>{A6A8C29F-6B0F-3A0C-8EE8-D31EF680C1A2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{8694E467-ED71-31FE-931E-E35DDFB2B21F}</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>{40421F5F-772D-3C65-A33B-E393B0E84487}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{05F92971-89E2-309C-9170-356FE3D890A4}</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>{88ECDCC8-2706-314F-A574-F934DD5FD4E4}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{4A6CCBDA-4E36-3506-9637-90D617E21D34}</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
-      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3CBE1557-C760-3C7F-BEEA-056D6B1CAD63}</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\test\gtest-1.7.0\gtest.vcxproj">
-      <Project>{73763E3F-896A-3B53-B11E-98B8E774B5B9}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\test\gtest-1.7.0\gtest.vcxproj">
+      <Project>{A493D622-923F-39A7-8D8E-592DAB0042F9}</Project>
       <Name>gtest</Name>
     </ProjectReference>
   </ItemGroup>
