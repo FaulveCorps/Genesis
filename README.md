@@ -2,7 +2,7 @@
 
 ![Genesis Game Engine Logo](https://github.com/user-attachments/assets/d30ed9b0-691f-43e2-b7e6-06c62de2c10a)
 
-[![Project Board](https://img.shields.io/badge/Project-Board-blue?logo=github)](https://github.com/users/altxxr0/projects/3/views/1)
+[![Project Board](https://img.shields.io/badge/Project-Board-blue?logo=github)](https://github.com/orgs/FaulveCorps/projects/1)
 
 > ⚠️ **Personal Use Only**  
 > The current [License](https://github.com/altxxr0/Genesis/blob/master/LICENSE) restricts commercial or public redistribution. Please review before use.
