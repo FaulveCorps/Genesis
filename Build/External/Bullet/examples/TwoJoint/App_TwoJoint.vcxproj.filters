@@ -1,297 +1,297 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TwoJoint\TwoJointMain.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TwoJoint\TwoJointMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\InProcessExampleBrowser.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\InProcessExampleBrowser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\tinyRendererPlugin.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\tinyRendererPlugin.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\TinyRendererVisualShapeConverter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\TinyRendererVisualShapeConverter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\geometry.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\geometry.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\model.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\tgaimage.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\tgaimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\our_gl.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\our_gl.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\TinyRenderer.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\TinyRenderer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\InProcessMemory.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\InProcessMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelperTCP.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelperTCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExample.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExampleBullet2.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExampleBullet2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3PluginManager.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3PluginManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\b3ResourcePath.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\b3ResourcePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3PosixThreadSupport.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3PosixThreadSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3Win32ThreadSupport.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3Win32ThreadSupport.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3ThreadSupportInterface.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3ThreadSupportInterface.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP_C_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP_C_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\win32.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\win32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\unix.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\unix.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\callbacks.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\callbacks.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\compress.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\host.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\host.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\list.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\list.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\packet.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\packet.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\peer.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\peer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\protocol.c">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\protocol.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP_C_API.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP_C_API.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\SimpleSocket.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\SimpleSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\ActiveSocket.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\ActiveSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\PassiveSocket.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src\PassiveSocket.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryCommands.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryCommands.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryPublic.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryPublic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\b3ResourcePath.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\b3ResourcePath.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP_C_API.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientUDP_C_API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP_C_API.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientTCP_C_API.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TwoJoint\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TwoJoint\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A95DAA86-F0B2-32BC-8D0B-27D0C510B37F}</UniqueIdentifier>
+      <UniqueIdentifier>{F7B1FB0F-BB5F-3C07-BDF0-267DF5AA1801}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9C1FD2CD-53D0-3991-A6A3-7D1FA7BDA8C9}</UniqueIdentifier>
+      <UniqueIdentifier>{1C5E09EB-8B66-3EB1-A20E-1AAD493A05ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

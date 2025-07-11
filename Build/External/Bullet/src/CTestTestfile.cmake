@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/jpfau/Desktop/Genesis/External/Bullet/src
-# Build directory: C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src
+# Source directory: C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src
+# Build directory: C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

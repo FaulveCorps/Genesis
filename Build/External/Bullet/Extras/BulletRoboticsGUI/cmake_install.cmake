@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jpfau/Desktop/Genesis/External/Bullet/Extras/BulletRoboticsGUI
+# Install script for directory: C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/Extras/BulletRoboticsGUI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,19 +34,19 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Build/lib/Debug/BulletRoboticsGUI_Debug.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/lib/Debug/BulletRoboticsGUI_Debug.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Build/lib/Release/BulletRoboticsGUI.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/lib/Release/BulletRoboticsGUI.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Build/lib/MinSizeRel/BulletRoboticsGUI_MinsizeRel.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/lib/MinSizeRel/BulletRoboticsGUI_MinsizeRel.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Build/lib/RelWithDebInfo/BulletRoboticsGUI_RelWithDebugInfo.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/lib/RelWithDebInfo/BulletRoboticsGUI_RelWithDebugInfo.lib")
   endif()
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/Extras/BulletRoboticsGUI/install_local_manifest.txt"
+  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/Extras/BulletRoboticsGUI/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

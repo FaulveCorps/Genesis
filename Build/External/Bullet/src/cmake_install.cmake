@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jpfau/Desktop/Genesis/External/Bullet/src
+# Install script for directory: C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,23 +34,23 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3OpenCL/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Dynamics/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Collision/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Geometry/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/BulletInverseDynamics/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/BulletSoftBody/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/BulletCollision/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/BulletDynamics/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/LinearMath/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Common/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3OpenCL/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Dynamics/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Collision/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Geometry/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/BulletInverseDynamics/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/BulletSoftBody/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/BulletCollision/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/BulletDynamics/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/LinearMath/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Common/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/install_local_manifest.txt"
+  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

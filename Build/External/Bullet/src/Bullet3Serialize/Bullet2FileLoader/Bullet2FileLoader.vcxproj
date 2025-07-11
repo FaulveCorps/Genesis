@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F7F25432-05BA-37B8-A012-19971AAF7E1D}</ProjectGuid>
+    <ProjectGuid>{C5DBB767-6DB2-3D86-8AE4-F40AC7262529}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Bullet2FileLoader.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Bullet2FileLoader_Debug</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Bullet2FileLoader.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Bullet2FileLoader</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Bullet2FileLoader.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Bullet2FileLoader_MinsizeRel</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Bullet2FileLoader.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Bullet2FileLoader_RelWithDebugInfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -101,10 +101,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,7 +117,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -141,10 +141,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -157,7 +157,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -181,10 +181,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -197,7 +197,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -220,10 +220,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -235,11 +235,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -248,11 +248,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -261,11 +261,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -274,11 +274,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/src/Bullet3Serialize/Bullet2FileLoader/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -287,29 +287,29 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Chunk.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3DNA.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3File.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Serializer.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Chunk.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Common.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Defines.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3DNA.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3File.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Serializer.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\autogenerated\bullet2.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Chunk.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3DNA.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3File.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Serializer.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3BulletFile.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Chunk.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Common.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Defines.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3DNA.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3File.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\b3Serializer.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src\Bullet3Serialize\Bullet2FileLoader\autogenerated\bullet2.h" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

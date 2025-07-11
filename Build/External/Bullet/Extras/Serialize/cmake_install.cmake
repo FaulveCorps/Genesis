@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/jpfau/Desktop/Genesis/External/Bullet/Extras/Serialize
+# Install script for directory: C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/Extras/Serialize
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,15 +34,15 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
-  include("C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/Extras/Serialize/BulletFileLoader/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/Extras/Serialize/BulletXmlWorldImporter/cmake_install.cmake")
+  include("C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/Extras/Serialize/BulletWorldImporter/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/Extras/Serialize/install_local_manifest.txt"
+  file(WRITE "C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/Extras/Serialize/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
