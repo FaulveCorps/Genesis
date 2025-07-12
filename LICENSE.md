@@ -23,7 +23,7 @@ You may **not**:
 ## 4. Attribution Requirements
 
 All projects built using Genesis Game Engine must:
-- Clearly credit “[Your Name / Studio]” in the game or project’s documentation and/or credits screen
+- Clearly credit “FaulveCorps” in the game or project’s documentation and/or credits screen
 - Retain and display the **Genesis Game Engine splash screen** at startup (unless written permission is granted to remove or modify it)
 
 ## 5. Redistribution and Forking
