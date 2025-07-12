@@ -33,9 +33,29 @@ All projects built using Genesis Game Engine must:
 - Projects built *using* the engine (e.g., games, tools) may be distributed freely as long as they follow the **non-commercial** and **attribution** terms
 
 ## 6. Commercial Use
-Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is **not allowed** under this license.  
-To obtain a commercial license, contact:
-📧 **altxxr0+faulve_corps@proton.me**
+Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is not allowed under this license.
+
+You may not:
+
+6.1: Sell or monetize games, tools, or interactive content made with the Genesis Game Engine
+
+6.2: Earn revenue through or within the Genesis Game Engine, including but not limited to:
+
+- In-game advertisements
+
+- Ad-based monetization platforms
+
+- Affiliate links, rewarded ads, or incentivized downloads
+
+- Include any form of ads, trackers, or monetization layers within the game or the engine
+
+6.3: Distribute games, tools, or other content made with the engine through paid or gated platforms, such as:
+
+- Direct sales, subscription models, or crowdfunded access
+
+- Ad-locked or reward-based download links
+
+- Donation-locked platforms (e.g., Patreon, Ko-fi, Itch.io paid tiers, etc.)
 
 ## 7. Warranty Disclaimer
 
