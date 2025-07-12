@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{342F1871-EB4B-3154-827E-01D267C63FF8}</ProjectGuid>
+    <ProjectGuid>{4F696048-5C7D-3030-AE5A-205680E7DA17}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Engine.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Engine_Debug</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Engine.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Engine</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Engine.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Engine_MinsizeRel</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\lib\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\lib\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Engine.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Engine_RelWithDebugInfo</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -97,10 +97,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,7 +113,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -133,10 +133,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -149,7 +149,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -169,10 +169,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -185,7 +185,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -204,10 +204,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\SDL\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -219,11 +219,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Engine\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Engine/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/Engine/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/Engine/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/Engine/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -232,11 +232,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Engine/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/Engine/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/Engine/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/Engine/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -245,11 +245,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Engine/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/Engine/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/Engine/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/Engine/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -258,11 +258,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Engine/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/Engine/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/Engine/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/Engine/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -271,38 +271,38 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\Engine\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\Engine.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\IWindow.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\Physics.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\SDLWindow.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Engine\include\Engine\btBulletDynamicsCommon.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Engine.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\Physics\Physics.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Engine\src\SDLWindow.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include\Engine\Engine.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include\Engine\IWindow.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include\Engine\Physics.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include\Engine\SDLWindow.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\include\Engine\btBulletDynamicsCommon.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\src\Engine.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\src\Physics\Physics.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Engine\src\SDLWindow.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>{6B3716C8-4638-351C-AD3A-CC00D591CC44}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{AA44BBC7-E8EE-310C-A015-F8578FCA4118}</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>{871EE9F1-C37A-3112-B5AE-FB24F3924048}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{E73473C3-5CA7-3BF2-A3BD-A5AFCD84473B}</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
-      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3CBE1557-C760-3C7F-BEEA-056D6B1CAD63}</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
   </ItemGroup>

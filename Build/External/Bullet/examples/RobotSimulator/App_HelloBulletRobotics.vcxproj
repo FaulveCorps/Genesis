@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{67B94238-5CB2-3CD6-A2F9-0384E462640E}</ProjectGuid>
+    <ProjectGuid>{80F743A1-4F78-31D5-8A51-9364DA159975}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_HelloBulletRobotics.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_HelloBulletRobotics_d</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_HelloBulletRobotics.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_HelloBulletRobotics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_HelloBulletRobotics.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_HelloBulletRobotics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_HelloBulletRobotics.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_HelloBulletRobotics</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -109,10 +109,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;GLEW_STATIC;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -126,9 +126,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/Debug/App_HelloBulletRobotics_d.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/Debug/App_HelloBulletRobotics_d.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/Debug/App_HelloBulletRobotics_d.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/Debug/App_HelloBulletRobotics_d.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -137,7 +137,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -161,10 +161,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;GLEW_STATIC;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,9 +178,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/Release/App_HelloBulletRobotics.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/Release/App_HelloBulletRobotics.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/Release/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/Release/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -189,7 +189,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -213,10 +213,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -230,9 +230,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/MinSizeRel/App_HelloBulletRobotics.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/MinSizeRel/App_HelloBulletRobotics.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/MinSizeRel/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/MinSizeRel/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -241,7 +241,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -264,10 +264,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;BT_ENABLE_CLSOCKET;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\enet\include;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\clsocket\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\btgui\OpenGLWindow\GlewWindows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,9 +281,9 @@
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/RelWithDebInfo/App_HelloBulletRobotics.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/RelWithDebInfo/App_HelloBulletRobotics.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/RelWithDebInfo/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/RelWithDebInfo/App_HelloBulletRobotics.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -291,11 +291,11 @@
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RobotSimulator\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RobotSimulator\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -304,11 +304,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -317,11 +317,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -330,11 +330,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/RobotSimulator/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/RobotSimulator/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -343,59 +343,59 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\RobotSimulator\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RobotSimulator\HelloBulletRobotics.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RobotSimulator\HelloBulletRobotics.cpp" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>{A6A8C29F-6B0F-3A0C-8EE8-D31EF680C1A2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{8694E467-ED71-31FE-931E-E35DDFB2B21F}</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>{6B3716C8-4638-351C-AD3A-CC00D591CC44}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{AA44BBC7-E8EE-310C-A015-F8578FCA4118}</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>{871EE9F1-C37A-3112-B5AE-FB24F3924048}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{E73473C3-5CA7-3BF2-A3BD-A5AFCD84473B}</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
-      <Project>{870F5E89-F8F3-30DE-8ED7-F3405E81EC46}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\Serialize\BulletFileLoader\BulletFileLoader.vcxproj">
+      <Project>{E9342CC8-A261-3F34-97EF-E21E87B00E2A}</Project>
       <Name>BulletFileLoader</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>{40421F5F-772D-3C65-A33B-E393B0E84487}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{05F92971-89E2-309C-9170-356FE3D890A4}</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>{88ECDCC8-2706-314F-A574-F934DD5FD4E4}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{4A6CCBDA-4E36-3506-9637-90D617E21D34}</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\BulletRobotics\BulletRobotics.vcxproj">
-      <Project>{3267BBF2-67FD-3488-A3A7-0A7AD153446F}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\BulletRobotics\BulletRobotics.vcxproj">
+      <Project>{5D7F2F33-EC56-38F9-BF87-10C6C321920E}</Project>
       <Name>BulletRobotics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
-      <Project>{69057298-2515-3C63-A405-06293EC30FC1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{BBED72CB-986F-3DB1-AC74-CB6B0999F3B9}</Project>
       <Name>BulletSoftBody</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
-      <Project>{189BE102-0924-34FD-9F1F-82FC2C3E150B}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\Serialize\BulletWorldImporter\BulletWorldImporter.vcxproj">
+      <Project>{F5A8BF2A-C538-3BC9-A161-EC2E158BD59D}</Project>
       <Name>BulletWorldImporter</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
-      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3CBE1557-C760-3C7F-BEEA-056D6B1CAD63}</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
   </ItemGroup>

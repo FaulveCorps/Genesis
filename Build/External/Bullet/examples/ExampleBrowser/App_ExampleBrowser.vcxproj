@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{843B9E1F-0F43-3024-83CA-EAA668C3F040}</ProjectGuid>
+    <ProjectGuid>{66519607-AC03-3570-ADB0-8A0A6DA72094}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_ExampleBrowser.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">App_ExampleBrowser</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_ExampleBrowser.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">App_ExampleBrowser</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_ExampleBrowser.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">App_ExampleBrowser</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_ExampleBrowser.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">App_ExampleBrowser</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -109,10 +109,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;INCLUDE_CLOTH_DEMOS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -122,7 +122,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/data
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/data
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -138,9 +138,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/Debug/App_ExampleBrowser.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/Debug/App_ExampleBrowser.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/Debug/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/Debug/App_ExampleBrowser.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -149,7 +149,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -173,10 +173,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;INCLUDE_CLOTH_DEMOS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -186,7 +186,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/data
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/data
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -202,9 +202,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/Release/App_ExampleBrowser.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/Release/App_ExampleBrowser.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/Release/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/Release/App_ExampleBrowser.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -213,7 +213,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DisableSpecificWarnings>4244;4267</DisableSpecificWarnings>
@@ -237,10 +237,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;INCLUDE_CLOTH_DEMOS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -250,7 +250,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/data
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/data
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -266,9 +266,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/MinSizeRel/App_ExampleBrowser.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -277,7 +277,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -300,10 +300,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;NDEBUG;_WIN64;USE_GRAPHICAL_BENCHMARK;_CRT_SECURE_NO_WARNINGS;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;GLEW_STATIC;INCLUDE_CLOTH_DEMOS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\.;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\src;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\glad;C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -313,7 +313,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/data
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/data C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/data
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -329,9 +329,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.lib</ImportLibrary>
+      <ImportLibrary>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.lib</ImportLibrary>
       <OptimizeReferences>true</OptimizeReferences>
-      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.pdb</ProgramDataBaseFile>
+      <ProgramDataBaseFile>C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/RelWithDebInfo/App_ExampleBrowser.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -339,11 +339,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -352,11 +352,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -365,11 +365,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -378,11 +378,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/jpfau/Desktop/Genesis/Genesis/External/Bullet/examples/ExampleBrowser/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis -BC:/Users/jpfau/Desktop/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/jpfau/Desktop/Genesis/Genesis -BC:/Users/jpfau/Desktop/Genesis/Genesis/Build --check-stamp-file C:/Users/jpfau/Desktop/Genesis/Genesis/Build/External/Bullet/examples/ExampleBrowser/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -391,355 +391,355 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\main.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\ExampleEntries.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\ExampleEntries.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\Chain.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\Chain.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\Bridge.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\Bridge.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\RigidBodyFromObj.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\RigidBodyFromObj.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleBox.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleBox.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\MultipleBoxes.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\MultipleBoxes.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\CompoundBoxes.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\CompoundBoxes.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleCloth.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleCloth.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleJoint.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleJoint.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsCradle.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsCradle.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\InclinedPlane.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\InclinedPlane.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\MultiPendulum.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\MultiPendulum.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\BulletRobotics\FixJointBoxes.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\BulletRobotics\BoxStack.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\BulletRobotics\JointLimit.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\geometry.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\model.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\tgaimage.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\our_gl.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\TinyRenderer\TinyRenderer.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\tinyRendererPlugin.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\TinyRendererVisualShapeConverter.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryCommands.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryPublic.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExampleBullet2.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\InProcessMemory.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBack.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBack.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBackC_API.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBackC_API.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryCommands.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryPublic.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3PluginManager.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoGUI.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoGUI.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RobotSimulator\b3RobotSimulatorClientAPI.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RobotSimulator\b3RobotSimulatorClientAPI.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\BasicDemo\BasicExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\BasicDemo\BasicExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\InverseDynamics\InverseDynamicsExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\InverseDynamics\InverseDynamicsExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\InverseKinematics\InverseKinematicsExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\InverseKinematics\InverseKinematicsExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ForkLift\ForkLiftDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ForkLift\ForkLiftDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreadedDemo\MultiThreadedDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreadedDemo\MultiThreadedDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreadedDemo\CommonRigidBodyMTBase.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreadedDemo\CommonRigidBodyMTBase.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Heightfield\HeightfieldExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Heightfield\HeightfieldExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Tutorial\Tutorial.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Tutorial\Tutorial.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Tutorial\Dof6ConstraintTutorial.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Tutorial\Dof6ConstraintTutorial.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Evolution\NN3DWalkers.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Evolution\NN3DWalkers.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Evolution\NN3DWalkersTimeWarpBase.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsRopeCradle.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsRopeCradle.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\CollisionSdkC_Api.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\CollisionSdkC_Api.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\CollisionTutorialBullet2.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\CollisionTutorialBullet2.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\Internal\Bullet2CollisionSdk.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\Internal\Bullet2CollisionSdk.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\Internal\CollisionSdkInterface.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\Internal\RealTimeBullet3CollisionSdk.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Collision\Internal\RealTimeBullet3CollisionSdk.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\GyroscopicDemo\GyroscopicSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\GyroscopicDemo\GyroscopicSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Planar2D\Planar2D.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Planar2D\Planar2D.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RollingFrictionDemo\RollingFrictionDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RollingFrictionDemo\RollingFrictionDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\FractureDemo.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\btFractureBody.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\btFractureDynamicsWorld.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\FractureDemo.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\btFractureBody.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\FractureDemo\btFractureDynamicsWorld.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DynamicControlDemo\MotorDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DynamicControlDemo\MotorDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\MultiThreadingExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3PosixThreadSupport.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3Win32ThreadSupport.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiThreading\b3ThreadSupportInterface.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TinyRendererSetup.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesCanvas.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesCanvas.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesFontData.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesFontData.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\DynamicTexturedCubeDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\DynamicTexturedCubeDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TinyVRGui.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TinyVRGui.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\GripperGraspExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\GripperGraspExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\R2D2GraspExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\R2D2GraspExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\KukaGraspExample.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RoboticsLearning\KukaGraspExample.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\CoordinateSystemDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\CoordinateSystemDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\RaytracerSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\RaytracerSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\RenderInstancingDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\RenderInstancingDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Benchmarks\BenchmarkDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Benchmarks\BenchmarkDemo.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Benchmarks\landscapeData.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Benchmarks\TaruData.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Raycast\RaytestDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\BspConverter.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBullet\SerializeSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBullet\SerializeSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btMultiBodyWorldImporter.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bChunk.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bFile.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bDNA.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\btBulletFile.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\BspLoader.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\ImportBspExample.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\btMatrix4x4.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\ImportObjExample.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.h" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdf_samples.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\BspConverter.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\BspLoader.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportBsp\ImportBspExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\ImportObjExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSDFDemo\ImportSDFSetup.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\VoronoiFracture\VoronoiFractureDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\VoronoiFracture\VoronoiFractureDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Vehicles\Hinge2Vehicle.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Vehicles\Hinge2Vehicle.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\Pendulum.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\MultiBodySoftContact.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\TestJointTorqueSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\TestJointTorqueSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\InvertedPendulumPDControl.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\InvertedPendulumPDControl.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\MultiBodyConstraintFeedback.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\KinematicMultiBodyExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SoftDemo\SoftDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\SoftDemo\SoftDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableContact.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableContact.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\GraspDeformable.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\GraspDeformable.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\Pinch.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\Pinch.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableSelfCollision.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableSelfCollision.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\PinchFriction.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\PinchFriction.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\ClothFriction.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\ClothFriction.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableMultibody.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableMultibody.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableRigid.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableRigid.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\SplitImpulse.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\SplitImpulse.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\VolumetricDeformable.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\VolumetricDeformable.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\Collide.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\Collide.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\LargeDeformation.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\LoadDeformed.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\LoadDeformed.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\LargeDeformation.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableClothAnchor.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\DeformableClothAnchor.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\MultibodyClothAnchor.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\DeformableDemo\MultibodyClothAnchor.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\MultiDofDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\MultiBody\MultiDofDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RigidBody\RigidBodySoftContact.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\RigidBody\KinematicRigidBodyExample.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ConservationTest.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ConservationTest.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\Springboard.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\Springboard.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ModeVisualizer.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ModeVisualizer.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\FreeFall.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\FreeFall.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\FrictionSlope.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\FrictionSlope.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedCollide.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedCollide.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedGrasp.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedGrasp.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedBenchmark.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedBenchmark.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedMotorGrasp.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedMotorGrasp.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\TestHingeTorque.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\TestHingeTorque.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\ConstraintDemo.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\ConstraintDemo.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\Dof6Spring2Setup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\Dof6Spring2Setup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\ConstraintPhysicsSetup.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Constraints\ConstraintPhysicsSetup.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp" />
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.h" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp" />
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ExampleBrowser\InProcessExampleBrowser.cpp" />
-    <ResourceCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\build3\bullet.rc" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\main.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\ExampleEntries.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\ExampleEntries.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\Chain.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\Chain.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\Bridge.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\Bridge.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\RigidBodyFromObj.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\RigidBodyFromObj.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleBox.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleBox.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\MultipleBoxes.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\MultipleBoxes.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\CompoundBoxes.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\CompoundBoxes.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleCloth.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleCloth.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleJoint.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\SimpleJoint.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsCradle.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsCradle.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\InclinedPlane.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\InclinedPlane.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\MultiPendulum.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\MultiPendulum.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\BulletRobotics\FixJointBoxes.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\BulletRobotics\BoxStack.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\BulletRobotics\JointLimit.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\geometry.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\model.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\tgaimage.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\our_gl.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\TinyRenderer\TinyRenderer.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\collisionFilterPlugin\collisionFilterPlugin.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\pdControlPlugin\pdControlPlugin.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\tinyRendererPlugin.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\plugins\tinyRendererPlugin\TinyRendererVisualShapeConverter.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\IKTrajectoryHelper.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServer.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientSharedMemory_C_API.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClient.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientC_API.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsServerExample.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsClientExample.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\RemoteGUIHelper.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryCommands.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\GraphicsSharedMemoryPublic.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerExampleBullet2.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsClientExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PosixSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\Win32SharedMemory.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\InProcessMemory.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerSharedMemory.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirect.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsDirectC_API.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryInProcessPhysicsC_API.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBack.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBack.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBackC_API.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsLoopBackC_API.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\PhysicsServerCommandProcessor.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryCommands.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\SharedMemoryPublic.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3PluginManager.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoGUI.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoGUI.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SharedMemory\b3RobotSimulatorClientAPI_NoDirect.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RobotSimulator\b3RobotSimulatorClientAPI.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RobotSimulator\b3RobotSimulatorClientAPI.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\BasicDemo\BasicExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\BasicDemo\BasicExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\InverseDynamics\InverseDynamicsExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\InverseDynamics\InverseDynamicsExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\InverseKinematics\InverseKinematicsExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\InverseKinematics\InverseKinematicsExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ForkLift\ForkLiftDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ForkLift\ForkLiftDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreadedDemo\MultiThreadedDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreadedDemo\MultiThreadedDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreadedDemo\CommonRigidBodyMTBase.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreadedDemo\CommonRigidBodyMTBase.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Heightfield\HeightfieldExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Heightfield\HeightfieldExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Tutorial\Tutorial.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Tutorial\Tutorial.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Tutorial\Dof6ConstraintTutorial.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Tutorial\Dof6ConstraintTutorial.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Evolution\NN3DWalkers.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Evolution\NN3DWalkers.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Evolution\NN3DWalkersTimeWarpBase.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsRopeCradle.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExtendedTutorials\NewtonsRopeCradle.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\CollisionSdkC_Api.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\CollisionSdkC_Api.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\CollisionTutorialBullet2.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\CollisionTutorialBullet2.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\Internal\Bullet2CollisionSdk.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\Internal\Bullet2CollisionSdk.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\Internal\CollisionSdkInterface.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\Internal\RealTimeBullet3CollisionSdk.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Collision\Internal\RealTimeBullet3CollisionSdk.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\GyroscopicDemo\GyroscopicSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\GyroscopicDemo\GyroscopicSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Planar2D\Planar2D.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Planar2D\Planar2D.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RollingFrictionDemo\RollingFrictionDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RollingFrictionDemo\RollingFrictionDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\FractureDemo.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\btFractureBody.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\btFractureDynamicsWorld.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\FractureDemo.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\btFractureBody.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\FractureDemo\btFractureDynamicsWorld.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DynamicControlDemo\MotorDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DynamicControlDemo\MotorDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\MultiThreadingExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3PosixThreadSupport.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3Win32ThreadSupport.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiThreading\b3ThreadSupportInterface.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TinyRendererSetup.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesCanvas.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesCanvas.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesFontData.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesFontData.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\DynamicTexturedCubeDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\DynamicTexturedCubeDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TinyVRGui.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TinyVRGui.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\GripperGraspExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\GripperGraspExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\R2D2GraspExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\R2D2GraspExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\KukaGraspExample.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RoboticsLearning\KukaGraspExample.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\CoordinateSystemDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\CoordinateSystemDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\RaytracerSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\RaytracerSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\RenderInstancingDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\RenderInstancingDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RenderingExamples\TimeSeriesExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Benchmarks\BenchmarkDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Benchmarks\BenchmarkDemo.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Benchmarks\landscapeData.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Benchmarks\TaruData.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Raycast\RaytestDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\BspConverter.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBullet\SerializeSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBullet\SerializeSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btMultiBodyWorldImporter.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bChunk.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bFile.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bDNA.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\btBulletFile.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\BspLoader.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\ImportBspExample.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\btMatrix4x4.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\ImportObjExample.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.h" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdf_samples.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\BulletMJCFImporter.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMJCFDemo\ImportMJCFSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\BspConverter.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\BspLoader.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportBsp\ImportBspExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ImportColladaSetup.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\ImportObjExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSDFDemo\ImportSDFSetup.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ImportURDFSetup.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\RobotLoggingUtil.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\VoronoiFracture\VoronoiFractureDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\VoronoiFracture\VoronoiFractureDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\VoronoiFracture\btConvexConvexMprAlgorithm.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Vehicles\Hinge2Vehicle.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Vehicles\Hinge2Vehicle.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\Pendulum.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\MultiBodySoftContact.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\TestJointTorqueSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\TestJointTorqueSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\InvertedPendulumPDControl.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\InvertedPendulumPDControl.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\MultiBodyConstraintFeedback.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\KinematicMultiBodyExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SoftDemo\SoftDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\SoftDemo\SoftDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableContact.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableContact.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\GraspDeformable.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\GraspDeformable.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\Pinch.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\Pinch.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableSelfCollision.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableSelfCollision.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\PinchFriction.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\PinchFriction.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\ClothFriction.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\ClothFriction.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableMultibody.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableMultibody.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableRigid.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableRigid.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\SplitImpulse.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\SplitImpulse.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\VolumetricDeformable.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\VolumetricDeformable.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\Collide.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\Collide.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\LargeDeformation.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\LoadDeformed.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\LoadDeformed.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\LargeDeformation.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableClothAnchor.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\DeformableClothAnchor.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\MultibodyClothAnchor.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\DeformableDemo\MultibodyClothAnchor.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\MultiDofDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\MultiBody\MultiDofDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RigidBody\RigidBodySoftContact.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\RigidBody\KinematicRigidBodyExample.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ConservationTest.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ConservationTest.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\Springboard.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\Springboard.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ModeVisualizer.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ModeVisualizer.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\FreeFall.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\FreeFall.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\FrictionSlope.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\FrictionSlope.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedCollide.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedCollide.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedGrasp.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedGrasp.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedBenchmark.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedBenchmark.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedMotorGrasp.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ReducedDeformableDemo\ReducedMotorGrasp.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\TestHingeTorque.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\TestHingeTorque.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\ConstraintDemo.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\ConstraintDemo.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\Dof6Spring2Setup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\Dof6Spring2Setup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\ConstraintPhysicsSetup.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Constraints\ConstraintPhysicsSetup.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp" />
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.h" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image_write.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ExampleBrowser\InProcessExampleBrowser.cpp" />
+    <ResourceCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\build3\bullet.rc" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\ZERO_CHECK.vcxproj">
-      <Project>{ADDD6A16-4A05-3F64-96D8-2A705B348FEE}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\ZERO_CHECK.vcxproj">
+      <Project>{B4C18599-AAC4-3D53-9F76-B6E873959104}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
-      <Project>{A6A8C29F-6B0F-3A0C-8EE8-D31EF680C1A2}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\Bullet3Common\Bullet3Common.vcxproj">
+      <Project>{8694E467-ED71-31FE-931E-E35DDFB2B21F}</Project>
       <Name>Bullet3Common</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>{6B3716C8-4638-351C-AD3A-CC00D591CC44}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{AA44BBC7-E8EE-310C-A015-F8578FCA4118}</Project>
       <Name>BulletCollision</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>{871EE9F1-C37A-3112-B5AE-FB24F3924048}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{E73473C3-5CA7-3BF2-A3BD-A5AFCD84473B}</Project>
       <Name>BulletDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
-      <Project>{CF18E6B2-2BB9-3A92-87B4-A7D197F810D8}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ExampleBrowser\BulletExampleBrowserLib.vcxproj">
+      <Project>{85A6703A-05FF-3A37-8E76-AF298BF6B422}</Project>
       <Name>BulletExampleBrowserLib</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
-      <Project>{40421F5F-772D-3C65-A33B-E393B0E84487}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletInverseDynamics\BulletInverseDynamics.vcxproj">
+      <Project>{05F92971-89E2-309C-9170-356FE3D890A4}</Project>
       <Name>BulletInverseDynamics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
-      <Project>{88ECDCC8-2706-314F-A574-F934DD5FD4E4}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\Extras\InverseDynamics\BulletInverseDynamicsUtils.vcxproj">
+      <Project>{4A6CCBDA-4E36-3506-9637-90D617E21D34}</Project>
       <Name>BulletInverseDynamicsUtils</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
-      <Project>{69057298-2515-3C63-A405-06293EC30FC1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{BBED72CB-986F-3DB1-AC74-CB6B0999F3B9}</Project>
       <Name>BulletSoftBody</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
-      <Project>{23CD5935-1CB7-3B4F-A929-E16F8FA6B695}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\BussIK\BussIK.vcxproj">
+      <Project>{B026BCCF-5CE0-30D5-8FC9-3004EF9B1322}</Project>
       <Name>BussIK</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
-      <Project>{93B209B2-EA2B-3712-9345-BA8AC3ACDEF1}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\src\LinearMath\LinearMath.vcxproj">
+      <Project>{3CBE1557-C760-3C7F-BEEA-056D6B1CAD63}</Project>
       <Name>LinearMath</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\OpenGLWindow\OpenGLWindow.vcxproj">
-      <Project>{A927D36B-20A8-3549-8B64-82DFFDC62644}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\OpenGLWindow\OpenGLWindow.vcxproj">
+      <Project>{02E9C06F-A6F0-3DAC-B46D-C848884C7A74}</Project>
       <Name>OpenGLWindow</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
-      <Project>{4588A070-DA55-3004-9923-05B8E5F3D0B0}</Project>
+    <ProjectReference Include="C:\Users\jpfau\Desktop\Genesis\Genesis\Build\External\Bullet\examples\ThirdPartyLibs\Gwen\gwen.vcxproj">
+      <Project>{72101878-7E41-3474-9CDC-5653CF384399}</Project>
       <Name>gwen</Name>
     </ProjectReference>
   </ItemGroup>

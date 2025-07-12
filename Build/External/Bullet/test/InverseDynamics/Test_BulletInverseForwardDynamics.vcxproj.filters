@@ -1,114 +1,114 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\test_invdyn_bullet.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\test_invdyn_bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\b3ResourcePath.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\b3ResourcePath.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\urdfStringSplit.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportMeshUtility\b3ImportMeshUtility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\stb_image\stb_image.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Utils\b3Clock.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Utils\b3Clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bChunk.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bChunk.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bFile.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bDNA.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\bDNA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletFileLoader\btBulletFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\Wavefront2GLInstanceGraphicsShape.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportObjDemo\LoadMeshFromObj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\LoadMeshFromCollada.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\Wavefront\tiny_obj_loader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\ThirdPartyLibs\tinyxml2\tinyxml2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\ConvertRigidBodies2MultiBody.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MultiBodyCreationInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\MyMultiBodyCreator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\BulletUrdfImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\UrdfParser.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDF2Bullet.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDFImporterInterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportURDFDemo\URDFJointTypes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\ImportSTLSetup.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportSTLDemo\LoadMeshFromSTL.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\examples\Importers\ImportColladaDemo\ColladaGraphicsInstance.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\test\InverseDynamics\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\test\InverseDynamics\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A95DAA86-F0B2-32BC-8D0B-27D0C510B37F}</UniqueIdentifier>
+      <UniqueIdentifier>{F7B1FB0F-BB5F-3C07-BDF0-267DF5AA1801}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9C1FD2CD-53D0-3991-A6A3-7D1FA7BDA8C9}</UniqueIdentifier>
+      <UniqueIdentifier>{1C5E09EB-8B66-3EB1-A20E-1AAD493A05ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

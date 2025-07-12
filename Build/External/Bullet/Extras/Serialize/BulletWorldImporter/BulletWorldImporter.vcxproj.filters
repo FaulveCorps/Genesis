@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btMultiBodyWorldImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btMultiBodyWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btBulletWorldImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\btWorldImporter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\Serialize\BulletWorldImporter\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A95DAA86-F0B2-32BC-8D0B-27D0C510B37F}</UniqueIdentifier>
+      <UniqueIdentifier>{F7B1FB0F-BB5F-3C07-BDF0-267DF5AA1801}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9C1FD2CD-53D0-3991-A6A3-7D1FA7BDA8C9}</UniqueIdentifier>
+      <UniqueIdentifier>{1C5E09EB-8B66-3EB1-A20E-1AAD493A05ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdGraph.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdGraph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdHACD.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdHACD.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdICHull.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdICHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdManifoldMesh.cpp">
+    <ClCompile Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdManifoldMesh.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdCircularList.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdCircularList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdGraph.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdGraph.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdHACD.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdHACD.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdICHull.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdICHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdManifoldMesh.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdManifoldMesh.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdVector.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdVector.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdVersion.h">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdVersion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdCircularList.inl">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdCircularList.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\hacdVector.inl">
+    <ClInclude Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\hacdVector.inl">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\External\Bullet\Extras\HACD\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\Genesis\External\Bullet\Extras\HACD\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{A95DAA86-F0B2-32BC-8D0B-27D0C510B37F}</UniqueIdentifier>
+      <UniqueIdentifier>{F7B1FB0F-BB5F-3C07-BDF0-267DF5AA1801}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9C1FD2CD-53D0-3991-A6A3-7D1FA7BDA8C9}</UniqueIdentifier>
+      <UniqueIdentifier>{1C5E09EB-8B66-3EB1-A20E-1AAD493A05ED}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
