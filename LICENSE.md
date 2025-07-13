@@ -23,7 +23,7 @@ You may **not**:
 ## 4. Attribution Requirements
 
 All projects built using Genesis Game Engine must:
-- Clearly credit “[Your Name / Studio]” in the game or project’s documentation and/or credits screen
+- Clearly credit “FaulveCorps” in the game or project’s documentation and/or credits screen
 - Retain and display the **Genesis Game Engine splash screen** at startup (unless written permission is granted to remove or modify it)
 
 ## 5. Redistribution and Forking
@@ -33,14 +33,24 @@ All projects built using Genesis Game Engine must:
 - Projects built *using* the engine (e.g., games, tools) may be distributed freely as long as they follow the **non-commercial** and **attribution** terms
 
 ## 6. Commercial Use
-Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is **not allowed** under this license.  
-To obtain a commercial license, contact:
+
+Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is **not allowed** under this license.
+
+You may **not**:
+
+- Sell or monetize games, tools, or interactive content made with the Genesis Game Engine  
+- Earn revenue **through or within** the Genesis Game Engine, including but not limited to:  
+  - **In-game advertisements**  
+  - **Ad-based monetization platforms**  
+  - **Affiliate links**, **rewarded ads**, or **incentivized downloads**
+- Include any form of **ads, trackers, or monetization layers** within the game or the engine  
+- Distribute games, tools, or other content made with the engine through **paid or gated platforms**, such as:  
+  - **Direct sales**, **subscription models**, or **crowdfunded access**  
+  - **Ad-locked or reward-based download links**  
+  - **Donation-locked platforms** (e.g., **Patreon**, **Ko-fi**, **Itch.io paid tiers**, etc.)
+
+To obtain a commercial license, contact:  
 📧 **altxxr0+faulve_corps@proton.me**
-
-## 7. Warranty Disclaimer
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.  
-THE AUTHORS ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
 
 ---
 
