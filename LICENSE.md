@@ -33,34 +33,24 @@ All projects built using Genesis Game Engine must:
 - Projects built *using* the engine (e.g., games, tools) may be distributed freely as long as they follow the **non-commercial** and **attribution** terms
 
 ## 6. Commercial Use
-Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is not allowed under this license.
 
-You may not:
+Commercial use of the Genesis Game Engine, including using it in for-profit games, apps, services, or engine forks, is **not allowed** under this license.
 
-- Sell or monetize games, tools, or interactive content made with the Genesis Game Engine
+You may **not**:
 
-- Earn revenue through or within the Genesis Game Engine, including but not limited to:
+- Sell or monetize games, tools, or interactive content made with the Genesis Game Engine  
+- Earn revenue **through or within** the Genesis Game Engine, including but not limited to:  
+  - **In-game advertisements**  
+  - **Ad-based monetization platforms**  
+  - **Affiliate links**, **rewarded ads**, or **incentivized downloads**
+- Include any form of **ads, trackers, or monetization layers** within the game or the engine  
+- Distribute games, tools, or other content made with the engine through **paid or gated platforms**, such as:  
+  - **Direct sales**, **subscription models**, or **crowdfunded access**  
+  - **Ad-locked or reward-based download links**  
+  - **Donation-locked platforms** (e.g., **Patreon**, **Ko-fi**, **Itch.io paid tiers**, etc.)
 
- - In-game advertisements
-
- - Ad-based monetization platforms
-
- - Affiliate links, rewarded ads, or incentivized downloads
-
- - Include any form of ads, trackers, or monetization layers within the game or the engine
-
-- Distribute games, tools, or other content made with the engine through paid or gated platforms, such as:
-
- - Direct sales, subscription models, or crowdfunded access
-
- - Ad-locked or reward-based download links
-
- - Donation-locked platforms (e.g., Patreon, Ko-fi, Itch.io paid tiers, etc.)
-
-## 7. Warranty Disclaimer
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.  
-THE AUTHORS ARE NOT LIABLE FOR ANY DAMAGES ARISING FROM ITS USE.
+To obtain a commercial license, contact:  
+📧 **altxxr0+faulve_corps@proton.me**
 
 ---
 
