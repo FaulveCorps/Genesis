@@ -1,6 +1,8 @@
 # Genesis - Game Engine
 
-<img width="1057" height="483" alt="GenesisGameEngineRevamped" margin="auto" src="https://github.com/user-attachments/assets/2c64cc50-b39d-439e-9aa3-522d39f7f4b2" />
+<p align="center">
+   <img width="800" height=400" alt="GenesisGameEngineRevamped" src="https://github.com/user-attachments/assets/2c64cc50-b39d-439e-9aa3-522d39f7f4b2" />
+</p>
 
 [![Project Board](https://img.shields.io/badge/Project-Board-blue?logo=github)](https://github.com/orgs/FaulveCorps/projects/1)
 
