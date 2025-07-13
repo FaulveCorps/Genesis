@@ -1,6 +1,6 @@
 # Genesis - Game Engine
 
-![Genesis Game Engine Logo](https://github.com/user-attachments/assets/985dc36b-fab4-4a17-87cd-affe472dd2ae)
+<img width="1057" height="483" alt="GenesisGameEngineRevamped" margin="auto" src="https://github.com/user-attachments/assets/2c64cc50-b39d-439e-9aa3-522d39f7f4b2" />
 
 [![Project Board](https://img.shields.io/badge/Project-Board-blue?logo=github)](https://github.com/orgs/FaulveCorps/projects/1)
 
