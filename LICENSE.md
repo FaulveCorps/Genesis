@@ -37,9 +37,9 @@ Commercial use of the Genesis Game Engine, including using it in for-profit game
 
 You may not:
 
-**6.1**: Sell or monetize games, tools, or interactive content made with the Genesis Game Engine
+Sell or monetize games, tools, or interactive content made with the Genesis Game Engine
 
-**6.2**: Earn revenue through or within the Genesis Game Engine, including but not limited to:
+Earn revenue through or within the Genesis Game Engine, including but not limited to:
 
 - In-game advertisements
 
@@ -49,7 +49,7 @@ You may not:
 
 - Include any form of ads, trackers, or monetization layers within the game or the engine
 
-**6.3**: Distribute games, tools, or other content made with the engine through paid or gated platforms, such as:
+Distribute games, tools, or other content made with the engine through paid or gated platforms, such as:
 
 - Direct sales, subscription models, or crowdfunded access
 
