@@ -18,12 +18,12 @@ namespace {
     const int DEFAULT_HEIGHT = 600;
     const std::string DEFAULT_TITLE = "Genesis Engine";
     const bool DEFAULT_FULLSCREEN = false;
-    const std::string CONFIG_FILE_PATH = "Override.json";
+    const std::string CONFIG_FILE_PATH = "config.json";
 }
 
 // Input class implementation
 Input::Input() {
-    key_states.resize(SDL_SCANCODE_COUNT, false);
+    key_states.resize(SDL_SCANCODE_COUNT, false); // Changed from SDL_NUM_SCANCODES
     key_pressed.resize(SDL_SCANCODE_COUNT, false);
     key_released.resize(SDL_SCANCODE_COUNT, false);
     mouse_states.resize(SDL_BUTTON_X2 + 1, false);
@@ -49,24 +49,46 @@ void Input::Update() {
             case SDL_EVENT_KEY_DOWN:
                 key_states[event.key.scancode] = true;
                 key_pressed[event.key.scancode] = true;
+                for (const auto& callback : key_callbacks) {
+                    callback(event.key.scancode, true);
+                }
+                for (const auto& [action, scancode] : action_bindings) {
+                    if (scancode == event.key.scancode) {
+                        for (const auto& callback : action_callbacks) {
+                            callback(action);
+                        }
+                    }
+                }
                 break;
             case SDL_EVENT_KEY_UP:
                 key_states[event.key.scancode] = false;
                 key_released[event.key.scancode] = true;
+                for (const auto& callback : key_callbacks) {
+                    callback(event.key.scancode, false);
+                }
                 break;
             case SDL_EVENT_MOUSE_BUTTON_DOWN:
                 mouse_states[event.button.button] = true;
                 mouse_pressed[event.button.button] = true;
+                for (const auto& callback : mouse_button_callbacks) {
+                    callback(event.button.button, true);
+                }
                 break;
             case SDL_EVENT_MOUSE_BUTTON_UP:
                 mouse_states[event.button.button] = false;
                 mouse_released[event.button.button] = true;
+                for (const auto& callback : mouse_button_callbacks) {
+                    callback(event.button.button, false);
+                }
                 break;
             case SDL_EVENT_MOUSE_MOTION:
                 mouse_x = event.motion.x;
                 mouse_y = event.motion.y;
                 mouse_dx = event.motion.xrel;
                 mouse_dy = event.motion.yrel;
+                for (const auto& callback : mouse_motion_callbacks) {
+                    callback(mouse_x, mouse_y, mouse_dx, mouse_dy);
+                }
                 break;
         }
     }
@@ -143,12 +165,25 @@ void Input::LoadBindings(const std::string& config_file) {
     }
 }
 
-Engine::Engine() : window(nullptr) {
-        m_Input = new Input();
-    }
+void Input::RegisterKeyCallback(KeyCallback callback) {
+    key_callbacks.push_back(callback);
+}
+
+void Input::RegisterMouseButtonCallback(MouseButtonCallback callback) {
+    mouse_button_callbacks.push_back(callback);
+}
+
+void Input::RegisterMouseMotionCallback(MouseMotionCallback callback) {
+    mouse_motion_callbacks.push_back(callback);
+}
+
+void Input::RegisterActionCallback(ActionCallback callback) {
+    action_callbacks.push_back(callback);
+}
+
+Engine::Engine() : window(nullptr), sdl_initialized(false), game_layer(nullptr) {}
 
 Engine::~Engine() {
-    delete m_Input;
     if (window) {
         SDL_DestroyWindow(window);
     }
@@ -156,10 +191,6 @@ Engine::~Engine() {
         SDL_Quit();
     }
 }
-
-Input& Engine::GetInput() {
-        return *m_Input;
-    }
 
 bool Engine::Init(int width, int height, const std::string& title, bool fullscreen) {
     if (SDL_Init(SDL_INIT_VIDEO) < 0) {
@@ -181,20 +212,17 @@ bool Engine::Init(int width, int height, const std::string& title, bool fullscre
 }
 
 bool Engine::InitFromArgs(int argc, char* argv[]) {
-    // Initialize with internal defaults
     int width = DEFAULT_WIDTH;
     int height = DEFAULT_HEIGHT;
     std::string title = DEFAULT_TITLE;
     bool fullscreen = DEFAULT_FULLSCREEN;
 
-    // Try to load external config file
     if (std::filesystem::exists(CONFIG_FILE_PATH)) {
         try {
             std::ifstream file(CONFIG_FILE_PATH);
             json config;
             file >> config;
 
-            // Parse window settings from JSON
             if (config.contains("window")) {
                 const auto& window_config = config["window"];
                 if (window_config.contains("width") && window_config["width"].is_number_integer()) {
@@ -218,13 +246,15 @@ bool Engine::InitFromArgs(int argc, char* argv[]) {
                     fullscreen = window_config["fullscreen"].get<bool>();
                 }
             }
+
+            input.LoadBindings(CONFIG_FILE_PATH);
         } catch (const std::exception& e) {
             LOG_ERROR("Error parsing config file {}: {}", CONFIG_FILE_PATH, e.what());
-            // Continue with defaults instead of failing
         }
+    } else {
+        LOG_INFO("No config file found at {}, using internal defaults", CONFIG_FILE_PATH);
     }
 
-    // Override with CLI arguments
     for (int i = 1; i < argc; ++i) {
         std::string arg = argv[i];
         if (arg == "--fullscreen") {
@@ -261,6 +291,28 @@ SDL_Window* Engine::GetWindow() const {
         LOG_ERROR("Attempted to access null window");
     }
     return window;
+}
+
+Input& Engine::GetInput() {
+    return input;
+}
+
+void Engine::SetGameLayer(GameLayer* layer) {
+    game_layer = layer;
+    if (game_layer) {
+        input.RegisterKeyCallback([this](SDL_Scancode scancode, bool is_pressed) {
+            game_layer->OnKeyEvent(scancode, is_pressed);
+        });
+        input.RegisterMouseButtonCallback([this](Uint32 button, bool is_pressed) {
+            game_layer->OnMouseButtonEvent(button, is_pressed);
+        });
+        input.RegisterMouseMotionCallback([this](int x, int y, int dx, int dy) {
+            game_layer->OnMouseMotionEvent(x, y, dx, dy);
+        });
+        input.RegisterActionCallback([this](const std::string& action) {
+            game_layer->OnActionEvent(action);
+        });
+    }
 }
 
 bool Initialize(int argc, char* argv[]) {
