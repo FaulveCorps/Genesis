@@ -1,12 +1,18 @@
 // Engine.h
 #pragma once
 #include <SDL3/SDL.h>
+#include "Platform/SDLWindow.h"
 #include <string>
 #include <unordered_map>
 #include <vector>
+#include <memory>
 #include <functional>
+#include "Graphics/IGraphicsContext.h"
 
 namespace Engine {
+
+    class SDLWindow; 
+    class GameLayer;
 
 class Input {
 public:
@@ -67,16 +73,20 @@ public:
 
     bool Init(int width, int height, const std::string& title, bool fullscreen = false);
     bool InitFromArgs(int argc, char* argv[]);
-    SDL_Window* GetWindow() const;
-    Input& GetInput();
     void SetGameLayer(GameLayer* layer);
+    Input& GetInput();
 
-private:
-    SDL_Window* window;
+    IGraphicsContext* GetGraphicsContext() const { return m_GraphicsContext.get(); }
+    
+
+private:    
+    std::unique_ptr<SDLWindow> m_Window;
+    std::unique_ptr<IGraphicsContext> m_GraphicsContext;
     bool sdl_initialized;
     Input input;
     GameLayer* game_layer;
 };
+
 
 bool Initialize(int argc, char* argv[]);
 void Shutdown();

@@ -1,21 +1,12 @@
-// main.cpp
-#include "Engine/Engine.h"
-#include "Engine/GameLayer.h"
 #include <SDL3/SDL.h>
+#include <cstdio>
 
 int main(int argc, char* argv[]) {
-    if (!Engine::Initialize(argc, argv)) {
+    if (SDL_Init(SDL_INIT_VIDEO) != 0) {
+        printf("SDL_Init Error: %s\n", SDL_GetError());
         return 1;
     }
-
-    MyGameLayer game_layer;
-    Engine::g_Engine->SetGameLayer(&game_layer);
-
-    while (game_layer.IsRunning()) {
-        Engine::g_Engine->GetInput().Update();
-        SDL_Delay(10);
-    }
-
-    Engine::Shutdown();
+    printf("SDL_Init succeeded.\n");
+    SDL_Quit();
     return 0;
 }

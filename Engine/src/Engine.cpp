@@ -1,14 +1,18 @@
 // Engine.cpp
 #include "Engine/Engine.h"
 #include "Engine/Log.h"
+#include <SDL3/SDL.h>
 #include <nlohmann/json.hpp>
 #include <filesystem>
 #include <fstream>
+#include <memory>
 #include <iostream>
+#include "Graphics/OpenGLGraphicsContext.h"
 
 using json = nlohmann::json;
 
 namespace Engine {
+    
 
 Engine* g_Engine = nullptr;
 
@@ -18,7 +22,7 @@ namespace {
     const int DEFAULT_HEIGHT = 600;
     const std::string DEFAULT_TITLE = "Genesis Engine";
     const bool DEFAULT_FULLSCREEN = false;
-    const std::string CONFIG_FILE_PATH = "config.json";
+    const std::string CONFIG_FILE_PATH = "override.json";
 }
 
 // Input class implementation
@@ -181,12 +185,11 @@ void Input::RegisterActionCallback(ActionCallback callback) {
     action_callbacks.push_back(callback);
 }
 
-Engine::Engine() : window(nullptr), sdl_initialized(false), game_layer(nullptr) {}
+Engine::Engine() : m_Window(nullptr), sdl_initialized(false), game_layer(nullptr) {
+    // Don't initialize graphics context here—m_Window is nullptr at this point!
+}
 
 Engine::~Engine() {
-    if (window) {
-        SDL_DestroyWindow(window);
-    }
     if (sdl_initialized) {
         SDL_Quit();
     }
@@ -199,17 +202,45 @@ bool Engine::Init(int width, int height, const std::string& title, bool fullscre
     }
     sdl_initialized = true;
 
-    Uint32 flags = fullscreen ? SDL_WINDOW_FULLSCREEN : SDL_WINDOW_RESIZABLE;
-    window = SDL_CreateWindow(title.c_str(), width, height, flags);
-    if (!window) {
-        LOG_ERROR("Error creating window: {}", SDL_GetError());
-        sdl_initialized = false;
-        SDL_Quit();
+    m_Window = std::make_unique<SDLWindow>(title, width, height);
+    if (m_Window->ShouldClose()) {
         return false;
     }
 
+    m_GraphicsContext = std::make_unique<OpenGLGraphicsContext>(m_Window->GetSDLWindow());
+
+    if (!m_GraphicsContext->Init(m_Window->GetSDLWindow())) {
+        return false;
+    }
+
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MAJOR_VERSION, 4);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_MINOR_VERSION, 6);
+    SDL_GL_SetAttribute(SDL_GL_CONTEXT_PROFILE_MASK, SDL_GL_CONTEXT_PROFILE_CORE);
+
+    int window_width = 1280;
+    int window_height = 720;
+
+
+    SDL_Window* window = SDL_CreateWindow(
+    "Genesis Engine",
+        window_width,
+        window_height,
+        SDL_WINDOW_OPENGL | SDL_WINDOW_RESIZABLE
+    );
+    
+    SDL_SetWindowPosition(window, SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED);
+
+
+    SDL_GLContext glContext = SDL_GL_CreateContext(window);
+    if (!glContext) {
+        SDL_Log("Failed to create OpenGL context: %s", SDL_GetError());
+        // Handle error here
+    }
+
+
     return true;
 }
+
 
 bool Engine::InitFromArgs(int argc, char* argv[]) {
     int width = DEFAULT_WIDTH;
@@ -284,13 +315,6 @@ bool Engine::InitFromArgs(int argc, char* argv[]) {
     }
 
     return Init(width, height, title, fullscreen);
-}
-
-SDL_Window* Engine::GetWindow() const {
-    if (!window) {
-        LOG_ERROR("Attempted to access null window");
-    }
-    return window;
 }
 
 Input& Engine::GetInput() {

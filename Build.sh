@@ -1,61 +1,53 @@
 #!/bin/bash
+set -e
 
-# Store current directory
 CURRENT_DIR=$(pwd)
 
-echo "[Genesis Build] Cloning SDL3..."
+echo "[Genesis Build] Cloning Necessary Repositories..."
 
-# Only add submodule if not already added
-if [ ! -d "External/SDL" ]; then
-    git submodule add https://github.com/libsdl-org/SDL.git External/SDL
-else
-    echo "[Genesis Build] SDL submodule already exists."
-fi
+check_and_repair_submodule() {
+  MODULE=$1
+  URL=$2
+  FOLDER="External/$MODULE"
+  GITMODULES_PATH=".git/modules/External/$MODULE"
 
-cd "$CURRENT_DIR"
-if [ ! -d "External/Json" ]; then
-    git submodule add https://github.com/nlohmann/json.git External/Json
-else
-    echo "[Genesis Build] Json submodule already exists."
-fi
+  if [ ! -d "$FOLDER" ] || [ -z "$(ls -A "$FOLDER" 2>/dev/null)" ]; then
+    echo "[Genesis Build] $MODULE submodule folder is missing or empty. Repairing..."
+    git submodule deinit -f "$FOLDER" 2>/dev/null || true
+    rm -rf "$FOLDER"
+    rm -rf "$GITMODULES_PATH"
+    git submodule add "$URL" "$FOLDER"
+  else
+    echo "[Genesis Build] $MODULE submodule already exists."
+  fi
+}
 
-cd "$CURRENT_DIR"
+check_and_repair_submodule "SDL"  "https://github.com/libsdl-org/SDL.git"
+check_and_repair_submodule "Json" "https://github.com/nlohmann/json.git"
+check_and_repair_submodule "Glfw" "https://github.com/glfw/glfw.git"
 
-# Kill possible interfering Git processes (if needed)
-pkill -f "code" > /dev/null 2>&1
-pkill -f "git-gui" > /dev/null 2>&1
-pkill -f "git" > /dev/null 2>&1
-pkill -f "git-bash" > /dev/null 2>&1
-pkill -f "gitk" > /dev/null 2>&1
-
-# Build SDL3 (Static)
 echo "[Genesis Build] Building SDL3 (static)..."
 cmake -B External/SDL/build -S External/SDL -DSDL_STATIC=ON -DSDL_SHARED=OFF -DSDL_TEST=OFF
 cmake --build External/SDL/build --config Release
 
-# Ensure main Build directory exists
-if [ ! -d "Build" ]; then
-    mkdir Build
-fi
+mkdir -p Build
+cd Build
 
 echo "[Genesis Build] Configuring Genesis CMake..."
-cd Build
 cmake .. -DSDL_STATIC=ON -DSDL_SHARED=OFF
-
-if [ $? -ne 0 ]; then
-    echo "[Genesis Build] CMake configuration failed."
-    exit 1
-fi
 
 echo "[Genesis Build] Building Genesis Game..."
 cmake --build . --config Release
 
-# Run the built game if successful
-if [ -f "bin/Release/GenesisGame" ]; then
-    echo "[Genesis Build] Build complete. Launching game..."
-    ./bin/Release/GenesisGame
+BIN="./bin/Release/GenesisGame"
+if [ -f "$BIN.exe" ]; then
+  echo "[Genesis Build] Build complete. Launching game..."
+  "$BIN.exe"
+elif [ -f "$BIN" ]; then
+  echo "[Genesis Build] Build complete. Launching game..."
+  "$BIN"
 else
-    echo "[Genesis Build] Build succeeded, but executable not found."
+  echo "[Genesis Build] Build succeeded, but executable not found."
 fi
 
 cd "$CURRENT_DIR"

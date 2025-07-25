@@ -1,3 +1,4 @@
+// Log.h
 #pragma once
 #include <string>
 
