@@ -1,4 +1,5 @@
 # Genesis - v2 Revision - Dead End (Abandoned)
+Abandoned due to "``SDL_Init Error:``", Unable to fix/resolve empty SDL_Init Error, No Possible Solutions have been found.
 ```
 Microsoft Windows [Version 10.0.17763.107]
 (c) 2018 Microsoft Corporation. All rights reserved.
