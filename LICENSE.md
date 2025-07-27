@@ -2,6 +2,12 @@
 
 **Copyright (c) 2025 FaulveCorps**
 
+### 0. Definitions
+- Software: The Genesis Game Engine source code, binaries, assets, and associated documentation.
+- Derivative: Any modification, enhancement, or adaptation of the Software.
+- Project: Any game, tool, or interactive content developed using the Software.
+- Commercial Use: Any use intended for commercial advantage or monetary compensation, including but not limited to sales, advertising revenue, or monetized distribution.
+
 ### 1. Purpose
 
 This license governs the use, distribution, and modification of the **Genesis Game Engine** (the "Software"). It enables developers to build and release **non-commercial** games, tools, and experiments using the engine, while preserving the rights, identity, and branding of its creators.
@@ -48,6 +54,23 @@ You may **not**:
   - **Direct sales**, **subscription models**, or **crowdfunded access**  
   - **Ad-locked or reward-based download links**  
   - **Donation-locked platforms** (e.g., **Patreon**, **Ko-fi**, **Itch.io paid tiers**, etc.)
+
+### 7. Termination
+
+Violation of this license immediately terminates your rights to use, distribute, or modify the Genesis Game Engine or any derivative works.  
+Upon termination, you must cease all use and delete any copies of the Software.  
+FaulveCorps reserves the right to pursue DMCA takedown actions, removal of infringing content, or legal remedies as necessary.
+
+### 8. Disclaimer of Warranty
+The Software is provided "AS IS," without warranty of any kind, express or implied, including but not limited to warranties of merchantability or fitness for a particular purpose.
+
+### 9. External Libraries and Dependencies
+
+This license applies only to the Genesis Game Engine source code and assets created by FaulveCorps.  
+It does **not** apply to third-party libraries, tools, or dependencies included with or required by the engine.  
+Each external component remains under its own respective license, which must be followed independently.
+
+You are responsible for reviewing and complying with the licenses of any external libraries used in conjunction with the Genesis Game Engine.
 
 To obtain a commercial license, contact:  
 📧 **altxxr0+faulve_corps@proton.me**
