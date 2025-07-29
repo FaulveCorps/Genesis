@@ -1,0 +1,12 @@
+[submodule "External/SDL"]
+	path = External/SDL
+	url = https://github.com/libsdl-org/SDL.git
+[submodule "External/bgfx"]
+	path = External/bgfx
+	url = https://github.com/bkaradzic/bgfx.git
+[submodule "External/bx"]
+	path = External/bx
+	url = https://github.com/bkaradzic/bx.git
+[submodule "External/bimg"]
+	path = External/bimg
+	url = https://github.com/bkaradzic/bimg.git
