@@ -1,18 +1,24 @@
 #include "Game/Game.h"
 #include "Genesis/Debug/Log.h"
 
-void Game::Init() {
-    LOG_INFO("[Game] Init");
-}
+namespace Game {
 
-void Game::Update(float dt) {
-    // game logic here
-}
+    void Init() {
+        LOG_INFO("[Game] Init");
+        // Future: Load levels, setup game state
+    }
 
-void Game::Render() {
-    // rendering calls
-}
+    void Update(float deltaTime) {
+        // Future: Handle input, update ECS
+    }
 
-void Game::Shutdown() {
-    LOG_INFO("[Game] Shutdown");
+    void Render() {
+        // Future: Draw game world
+    }
+
+    void Shutdown() {
+        LOG_INFO("[Game] Shutdown");
+        // Future: Cleanup
+    }
+
 }

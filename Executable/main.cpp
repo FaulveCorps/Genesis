@@ -1,12 +1,7 @@
-#include "Genesis/Core/Engine.h"
+#include "Genesis/Core/Application.h"
 
 int main() {
-    Genesis::Engine::Init();
-
-    while (!Genesis::Engine::ShouldQuit()) {
-        Genesis::Engine::Tick();
-    }
-
-    Genesis::Engine::Shutdown();
+    Genesis::Application app;
+    app.Run();
     return 0;
 }
