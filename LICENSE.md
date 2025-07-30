@@ -88,5 +88,13 @@ Violation of any clause in this license will result in an immediate termination 
 
 ---
 
+### 8. Governing Law and Jurisdiction
+
+This license and any disputes arising from its enforcement shall be governed by and construed in accordance with the laws of the **Republic of the Philippines**.
+
+By using the Software, you agree that **any legal action or proceeding** arising under or in connection with this license shall be brought exclusively in the **courts of the Philippines**, and you hereby consent to the **personal jurisdiction** and **venue** of such courts.
+
+---
+
 © 2025 FaulveCorps – All rights reserved.  
 Unauthorized use is prohibited and may be subject to legal action.
