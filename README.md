@@ -6,7 +6,7 @@
 
 A cross-platform, modular, and embeddable 2D/3D game engine built in modern C++.
 
-> **Disclaimer:** This project is protected by the GENESIS-SA-NC-2.0 License.  
+> **Disclaimer:** This project is protected by the GENESIS-SA-NC-2.3 License.  
 > Usage is subject to the terms and conditions outlined in that license.  
 > No commercial use is permitted without explicit permission.
 
