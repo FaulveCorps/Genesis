@@ -1,4 +1,4 @@
-# Genesis Game Engine License (GENESIS-SA-NC-1.2)
+# Genesis Game Engine License (GENESIS-SA-NC-1.3)
 
 **Copyright (c) 2025 FaulveCorps**
 
