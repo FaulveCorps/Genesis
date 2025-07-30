@@ -81,22 +81,3 @@ cmake ..
 cmake --build . --config Release
 ```
 Use ``-DGENESIS_BUILD_EXAMPLES=ON`` to build demo scenes and test apps.
-
-## Roadmap
- Cross-platform bootstrap with SDL3
-
- Integrate bgfx renderer
-
- Physics via Bullet
-
- Add asset loader and JSON config
-
- Audio with miniaudio
-
- In-engine debugging (ImGui)
-
- Editor tools and serialization
-
- Lua scripting runtime
-
- Web and Android targets
