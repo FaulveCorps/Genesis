@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\build\CMakeFiles\b98b8eed483c3b8ac0caa1d225e0f525\fs_triangle.bin.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\build\CMakeFiles\b98b8eed483c3b8ac0caa1d225e0f525\vs_triangle.bin.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\build\CMakeFiles\61c58d2528a99c05d7dc637f15b3b962\Shaders.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\jpfau\Desktop\Genesis\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\jpfau\Desktop\Genesis\build\CMakeFiles\Shaders" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F2C414BB-63B9-390E-8A75-66CD8CCF6FEF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

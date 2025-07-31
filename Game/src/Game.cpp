@@ -1,5 +1,6 @@
 #include "Game/Game.h"
 #include "Genesis/Debug/Log.h"
+#include "Genesis/Renderer/BasicRenderer.h"
 
 namespace Game {
 
@@ -12,8 +13,8 @@ namespace Game {
         // Future: Handle input, update ECS
     }
 
-    void Render() {
-        // Future: Draw game world
+    void Game::Render() {
+        Genesis::BasicRenderer::Render();
     }
 
     void Shutdown() {
