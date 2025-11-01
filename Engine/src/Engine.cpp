@@ -7,12 +7,19 @@ void EngineInit() {
         return;
     }
 
-    SDL_Window* window = SDL_CreateWindow("Genesis Game Engine", 1280, 720, 0);
+    SDL_Window* window = SDL_CreateWindow("Genesis Game Engine", 1280, 720, SDL_WINDOW_RESIZABLE);
+    SDL_ShowWindow(window);
     if (!window) {
         std::cerr << "Window creation failed: " << SDL_GetError() << "\n";
         SDL_Quit();
         return;
     }
+
+    if (SDL_Init(SDL_INIT_VIDEO) < 0) {
+        std::cerr << "SDL Init failed: " << SDL_GetError() << "\n";
+        return;
+    }
+
 
     bool running = true;
     SDL_Event e;
