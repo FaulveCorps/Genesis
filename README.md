@@ -47,42 +47,30 @@ It supports multiple **graphics, audio, and compute APIs**, allows developers to
 ```
 
 /Engine
-/Core
-- Windowing & Input (SDL3)
-- Rendering (DirectX / OpenGL / Vulkan abstraction)
-- Audio (OpenAL)
-- Physics (BulletPhysics)
-- ECS (EnTT)
-- Scripting API (Lua/Python/C# interop hooks)
-- Asset Management (Assimp + optimized formats)
-/Utils
-- Math (vec/mat/quat)
-- Logging & Debugging
-- Profiling Tools
-
-/Game
-
-Game Logic (static lib / dynamic module)
-
-Levels / Scenes
-
-Exposed Modding API
-
-/Launcher
-
-Game Loader / Bootstrapper
-
-Optional Editor
-
-Build & Export Tools
-
-/Tools
-
-Shader Compiler / Preprocessor
-
-Asset Converter / Packer
-
-Packaging Scripts (single-exe or installer)
+  /Core
+    - Windowing & Input (SDL3)
+    - Rendering (DirectX / OpenGL / Vulkan abstraction)
+    - Audio (OpenAL)
+    - Physics (BulletPhysics)
+    - ECS (EnTT)
+    - Scripting API (Lua/Python/C# interop hooks)
+    - Asset Management (Assimp + optimized formats)
+  /Utils
+    - Math (vec/mat/quat)
+    - Logging & Debugging
+    - Profiling Tools
+  /Game
+    - Game Logic (static lib / dynamic module)
+    - Levels / Scenes
+    - Exposed Modding API
+  /Launcher
+    - Game Loader / Bootstrapper
+    - Optional Editor
+    - Build & Export Tools
+  /Tools
+    - Shader Compiler / Preprocessor
+    - Asset Converter / Packer
+    - Packaging Scripts (single-exe or installer)
 
 ```
 
@@ -124,7 +112,7 @@ Packaging Scripts (single-exe or installer)
 
 ---
 
-## 🗺️ Phased Development Plan
+## Phased Development Plan
 
 | Phase | Focus | Description |
 |:------|:------|:-------------|
@@ -135,26 +123,26 @@ Packaging Scripts (single-exe or installer)
 
 ---
 
-## 📂 Project Layout (Visual Studio / CMake Friendly)
+## Project Layout (Visual Studio / CMake Friendly)
 
 ```
 
 /root
-/Engine
-/Core (static lib)
-/Renderers
-/VulkanRenderer
-/OpenGLRenderer
-/DirectXRenderer (Windows-only)
-/ThirdParty (Assimp, SDL3, OpenAL, Bullet, EnTT, ImGui)
-/Utils
-/GameProjects
-/SampleGame (links Engine libs)
-/Launcher (executable)
-/Editor (optional)
-/Tools
-- asset_packer
-- shader_compiler
+  /Engine
+    /Core (static lib)
+      /Renderers
+      /VulkanRenderer
+      /OpenGLRenderer
+      /DirectXRenderer (Windows-only)
+    /ThirdParty (Assimp, SDL3, OpenAL, Bullet, EnTT, ImGui)
+    /Utils
+  /GameProjects
+    /SampleGame (links Engine libs)
+  /Launcher (executable)
+  /Editor (optional)
+  /Tools
+    - asset_packer
+    - shader_compiler
 CMakeLists.txt
 docs/
 LICENSE
