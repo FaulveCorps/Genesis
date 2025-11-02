@@ -6,3 +6,4 @@ add_library(Engine STATIC ${ENGINE_SRC})
 target_include_directories(Engine PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
 target_link_libraries(Engine PUBLIC SDL3::SDL3)
+target_link_libraries(Engine PUBLIC bgfx bx bimg)   
