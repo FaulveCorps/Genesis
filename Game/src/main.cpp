@@ -1,30 +1,18 @@
-#include "Engine.h"
-#include <SDL3/SDL.h>
-#include <bgfx/bgfx.h>
+// Game/main.cpp
+#include <Engine/Engine.h>
 
 int main()
 {
-    SDL_Window* window = nullptr;
-    EngineInit(&window);
+    if (!Genesis::Init("Genesis Game Engine", 1280, 720))
+        return -1;
 
     bool running = true;
-    SDL_Event event;
-
     while (running)
     {
-        while (SDL_PollEvent(&event))
-        {
-            if (event.type == SDL_EVENT_QUIT)
-                running = false;
-        }
-
-        bgfx::touch(0);
-        bgfx::frame();
+        Genesis::BeginFrame();
+        Genesis::EndFrame();
     }
 
-    bgfx::shutdown();
-    SDL_DestroyWindow(window);
-    SDL_Quit();
-
+    Genesis::Shutdown();
     return 0;
 }
